@@ -28,6 +28,15 @@ A document retrieval workbench with BM25 and keyword ranking, source inspection,
 
 [Try the live demo](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [Explore my portfolio](https://kyaswanthneeli-stack.github.io/)
 
+## More interactive projects
+
+| Project | Explore |
+| --- | --- |
+| EvalBench — compare saved answers and inspect regressions | [Live demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) |
+| TraceFlow — inspect simulated workflow retries and call budgets | [Live demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html) |
+
+[Code, tests and engineering notes](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)
+
 ## Professional project walkthroughs
 **Enterprise knowledge assistant** — Retrieval pipelines connecting enterprise documents to context-aware LLM responses.
 
