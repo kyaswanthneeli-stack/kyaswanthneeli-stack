@@ -27,21 +27,19 @@
 
 ---
 
-### GitHub engineering dashboard 📊
+### Engineering dashboard 📊
 
 <div align="center">
-  <a href="https://github.com/kyaswanthneeli-stack?tab=repositories"><img src="assets/profile-reference-stats.png" width="100%" alt="Dark GitHub-style two-panel engineering dashboard with 44 documented Python tests across three projects and two verified public APIs"></a>
+
+<a href="https://github.com/kyaswanthneeli-stack?tab=repositories">
+  <img src="assets/dark-reference-dashboard.svg" width="100%" alt="Dark GitHub-style engineering dashboard featuring three AI projects, two hosted APIs, 44 documented tests and the Python/FastAPI/RAG technology stack">
+</a>
+
 </div>
 
-<sub>These dashboard numbers come from project implementations and successful CI checks—not fabricated GitHub stars, followers, historical contributions, or streak counts. GitHub displays your genuine contribution calendar below the profile README.</sub>
+<sub>Dashboard figures are verified project facts rather than fabricated follower, star, contribution or streak statistics. GitHub's genuine contribution activity remains visible below the README.</sub>
 
-### Languages & tools 💻
-
-<div align="center">
-  <img src="assets/profile-reference-skills.png" width="100%" alt="Dark developer tech ribbon featuring Python, FastAPI, LangGraph, LangChain, RAG, MCP, Azure and Docker">
-</div>
-
-**Also:** REST APIs · SQL · BigQuery · ChromaDB · Milvus · GitHub Actions · Railway
+**Additional tools:** LangChain · ADK · REST APIs · BigQuery · ChromaDB · Milvus · GitHub Actions · Railway
 
 ---
 
