@@ -60,6 +60,15 @@ A document retrieval workbench with BM25 and keyword ranking, source inspection,
 
 Company code and confidential data are not published. Public demos are independent portfolio projects.
 
+## Verified live API deployments
+
+| Python service | Hosted API documentation | Public smoke-test evidence | Security / behavior |
+| --- | --- | --- | --- |
+| [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [Live Swagger API](https://agentgate-production-00036f18.up.railway.app/docs) | [Verified health, docs and HTTP 401](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml) | API-key protected; fixed simulated tool adapters |
+| [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [Live Swagger API](https://routewise-production-c8aefb65.up.railway.app/docs) | [Verified health, docs and HTTP 401](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml) | Bearer protected; real model keys not configured, demo responses labeled |
+
+Both backends are deployed on Railway with secret credentials stored outside GitHub. The public documentation and unauthenticated health checks are accessible; protected requests require credentials. No paid LLM provider is attached. This is a portfolio deployment, **not** a claim of production compliance or real external tool execution.
+
 ## Verified engineering evidence (GitHub Actions)
 
 | Featured project | Tests and build | Architecture and walkthrough | Captioned video |
@@ -68,4 +77,4 @@ Company code and confidential data are not published. Public demos are independe
 | [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [CI + Docker build](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) | [Architecture and deployment guide](https://github.com/kyaswanthneeli-stack/agentgate/blob/main/docs/ARCHITECTURE_AND_DEMO.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/walkthrough.yml) |
 | [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [CI + Docker build](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) | [Architecture and deployment guide](https://github.com/kyaswanthneeli-stack/routewise/blob/main/docs/ARCHITECTURE_AND_DEMO.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/walkthrough.yml) |
 
-**Accurate deployment status:** GitHub Pages hosts static project demos. The AgentGate and RouteWise Python backend Dockerfiles and Railway configs are prepared, but live backend URLs require external hosting and private API credentials. The 20-second MP4 files are silent, captioned architecture explainers—not recordings of live model calls. CodeAtlas token measurement counts actual tokenizer payloads; it does not claim equal-task agent savings.
+**Current deployment status:** GitHub Pages hosts static project demos; AgentGate and RouteWise Python services are independently deployed to Railway and their public health/docs endpoints passed hosted smoke tests. API credentials are stored in Railway, while real model inference remains unconfigured. The 20-second MP4 files are silent, captioned architecture explainers—not recordings of live model calls. CodeAtlas token measurement counts actual tokenizer payloads; it does not claim equal-task agent savings.
