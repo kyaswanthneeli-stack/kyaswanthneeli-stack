@@ -22,6 +22,14 @@ I build Python services and AI workflows that connect language models to documen
 
 ## Featured public projects
 
+| Project | Browser demo | Engineering focus |
+| --- | --- | --- |
+| [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp) | [Explore](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html) | Local Python AST indexing, five MCP tools and static call graph exploration. |
+| [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [Explore](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) | Tool allowlists, recursive redaction, session limits and request-bound approvals. |
+| [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [Explore](https://kyaswanthneeli-stack.github.io/projects/routewise.html) | Explainable routing, provider failover and prompt-free request metrics. |
+
+All three have runnable Python implementations. Browser demos use clearly labeled fixtures or simulations; backend services run separately.
+
 ### [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)
 
 A local Python AST and SQLite context server for coding assistants. Five MCP tools expose symbol search, module summaries, bounded call graphs and potential test impact. Includes 16 passing tests, a real stdio protocol integration test, and a reproducible synthetic benchmark with explicit limitations.
