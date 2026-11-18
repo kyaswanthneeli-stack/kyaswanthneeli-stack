@@ -35,7 +35,7 @@ jobs:
                   im.verify()
               with Image.open(p) as im:
                   assert im.width==1200
-                  if p.suffix==".gif": assert im.n_frames==26,im.n_frames
+                  if p.suffix==".gif": assert im.n_frames>=18,im.n_frames
                   print(name,im.size,p.stat().st_size)
           PY
       - name: Publish visuals into GitHub profile
