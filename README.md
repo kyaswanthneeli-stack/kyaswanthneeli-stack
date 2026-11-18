@@ -1,25 +1,25 @@
 <div align="center">
 
 <a href="https://kyaswanthneeli-stack.github.io/">
-  <img src="./assets/floating-ai-hero.gif" width="100%" alt="Animated AI systems observatory: floating holographic neural globe with orbiting nodes, moving architecture panels and luminous particles beside the name Neeli Yaswanth Kumar, Generative AI Engineer">
+  <img src="./assets/floating-hero-v2.gif" width="100%" alt="Midnight-navy animated AI engineering hero with Neeli Yaswanth Kumar, rotating mint/ice/lavender AI network, gently floating CodeAtlas/AgentGate/RouteWise themed panels and measured project scope">
 </a>
 
 ### Engineering the bridge between AI models and real applications.
 
-**Generative AI Engineer** · **Python Backend Developer** · **Agentic AI**
+**Generative AI Engineering** · **Python APIs** · **Agent Workflows**
 
 <p>
   <a href="https://kyaswanthneeli-stack.github.io/">
-    <img src="https://img.shields.io/badge/EXPLORE-PORTFOLIO-00BBA5?style=for-the-badge&labelColor=0B2034&logo=githubpages&logoColor=white" alt="Portfolio">
+    <img src="https://img.shields.io/badge/EXPLORE-PORTFOLIO-2A9D87?style=for-the-badge&labelColor=0C1B2C&logo=githubpages&logoColor=white" alt="Portfolio">
   </a>
   <a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/">
-    <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-3575D5?style=for-the-badge&labelColor=0B2034&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-416DBA?style=for-the-badge&labelColor=0C1B2C&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://github.com/kyaswanthneeli-stack?tab=repositories">
-    <img src="https://img.shields.io/badge/VIEW-PROJECTS-8A70D6?style=for-the-badge&labelColor=0B2034&logo=github&logoColor=white" alt="GitHub projects">
+    <img src="https://img.shields.io/badge/VIEW-PROJECTS-7968B6?style=for-the-badge&labelColor=0C1B2C&logo=github&logoColor=white" alt="GitHub projects">
   </a>
   <a href="mailto:kyaswanthneeli@gmail.com">
-    <img src="https://img.shields.io/badge/LET'S_TALK-EMAIL-276F74?style=for-the-badge&labelColor=0B2034&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/LET'S_TALK-EMAIL-298977?style=for-the-badge&labelColor=0C1B2C&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
 
@@ -29,23 +29,29 @@
 
 I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieval systems and agentic workflows**. My public portfolio focuses on understandable architecture, tested code, and practical backend demonstrations.
 
-**What you'll find here:** MCP developer tooling, tool-governance patterns, explainable model routing, evaluation workbenches and real engineering trade-offs.
+**What you'll find here:** carefully scoped MCP developer tooling, tool policy prototypes, model routing infrastructure and evaluation workbenches—each linked to source code, tests and documented limitations.
 
 🌏 **India** · Open to international remote **GenAI / Agentic AI / Python Backend** opportunities.
 
+<div align="center">
+
+<img src="./assets/system-strip-v2.png" width="100%" alt="Engineering systems overview: CodeAtlas local MCP service; AgentGate and RouteWise deployed demo APIs, each with clearly labeled scope">
+
+</div>
+
 ---
 
-### <code>02 //</code> Featured systems — explore the moving architecture
+### <code>02 //</code> Featured engineering systems
 
 <table>
 <tr>
 <td width="33%" valign="top">
 <a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp">
-<img src="./assets/codeatlas-floating.gif" width="100%" alt="Animated CodeAtlas MCP mini-pipeline: Python source to SQLite graph to MCP tools"></a>
+<img src="./assets/codeatlas-v2.gif" width="100%" alt="Animated CodeAtlas MCP mini-pipeline: Python source to SQLite graph to MCP tools"></a>
 
 **[CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)**
 
-**Code structure, without reading the whole repository.** Local Python AST indexing, SQLite graph queries, and five MCP tools for coding-agent context.
+**Index code once, retrieve targeted structural context.** Reads Python files to build an AST/SQLite snapshot, then serves bounded symbol, call-graph and test-impact candidates through five local MCP tools.
 
 [**Explore visual demo**](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html) · [**Architecture**](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md)
 
@@ -53,11 +59,11 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/kyaswanthneeli-stack/agentgate">
-<img src="./assets/agentgate-floating.gif" width="100%" alt="Animated AgentGate mini-pipeline: tool requests, policy checks, and one-use approval"></a>
+<img src="./assets/agentgate-v2.gif" width="100%" alt="Animated AgentGate mini-pipeline: tool requests, policy checks, and one-use approval"></a>
 
 **[AgentGate](https://github.com/kyaswanthneeli-stack/agentgate)**
 
-**Tool calls deserve guardrails.** A deployed FastAPI policy gateway with allowlists, input checks, redaction, bounded usage and one-use approvals.
+**Policy checks for agent tool requests.** The hosted FastAPI prototype validates allowlisted tools, redacts selected sensitive patterns and enforces one-use approvals; its two adapters use simulated data.
 
 [**Try policy demo**](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) · [**Live Python API**](https://agentgate-production-00036f18.up.railway.app/docs)
 
@@ -65,11 +71,11 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/kyaswanthneeli-stack/routewise">
-<img src="./assets/routewise-floating.gif" width="100%" alt="Animated RouteWise mini-pipeline: prompt selection, fast and reasoning routes, provider fallback"></a>
+<img src="./assets/routewise-v2.gif" width="100%" alt="Animated RouteWise mini-pipeline: prompt selection, fast and reasoning routes, provider fallback"></a>
 
 **[RouteWise](https://github.com/kyaswanthneeli-stack/routewise)**
 
-**Route requests intentionally.** A deployed FastAPI gateway for heuristic fast/reasoning selection, bounded failover and protected metrics.
+**Explainable request routing, with conditional fallback.** The hosted FastAPI service uses heuristics to select fast/reasoning routes and can retry configured providers on eligible failures. Its public deployment currently returns labeled demo responses.
 
 [**Try routing demo**](https://kyaswanthneeli-stack.github.io/projects/routewise.html) · [**Live Python API**](https://routewise-production-c8aefb65.up.railway.app/docs)
 
@@ -80,28 +86,28 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 <div align="center">
 
-### <code>03 //</code> A closer look at the engineering
+### <code>03 //</code> Engineering evidence, not vanity metrics
 
-<img src="./assets/verified-metrics.png" width="100%" alt="Dark glass-style AI engineering dashboard with 3 featured projects, 2 hosted FastAPI services, 44 documented Python tests and 5 CodeAtlas MCP tools">
+<img src="./assets/verified-metrics-v2.png" width="100%" alt="Dark glass-style AI engineering dashboard with 3 featured projects, 2 hosted FastAPI services, 44 documented Python tests and 5 CodeAtlas MCP tools">
 
-<sub>Measured engineering scope, not fabricated GitHub stars, followers, streaks, or model cost savings.</sub>
+<sub>Documented implementation scope and CI checks—not GitHub popularity, real LLM savings or paid-provider activity.</sub>
 
 </div>
 
-### <code>04 //</code> My technology constellation
+### <code>04 //</code> The stack behind the systems
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0D2236?style=for-the-badge&logo=python&logoColor=68F8DC)
-![FastAPI](https://img.shields.io/badge/FastAPI-0D2236?style=for-the-badge&logo=fastapi&logoColor=68F8DC)
-![RAG](https://img.shields.io/badge/RAG-0D2236?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-0D2236?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/LangChain-0D2236?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-0D2236?style=for-the-badge)
-![Azure](https://img.shields.io/badge/Azure-0D2236?style=for-the-badge)
-![BigQuery](https://img.shields.io/badge/BigQuery-0D2236?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-0D2236?style=for-the-badge&logo=docker&logoColor=9BBDFF)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D2236?style=for-the-badge&logo=githubactions&logoColor=9BBDFF)
+![Python](https://img.shields.io/badge/Python-10263A?style=for-the-badge&logo=python&logoColor=69E6CA)
+![FastAPI](https://img.shields.io/badge/FastAPI-10263A?style=for-the-badge&logo=fastapi&logoColor=69E6CA)
+![RAG](https://img.shields.io/badge/RAG-10263A?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-10263A?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-10263A?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-10263A?style=for-the-badge)
+![Azure](https://img.shields.io/badge/Azure-10263A?style=for-the-badge)
+![BigQuery](https://img.shields.io/badge/BigQuery-10263A?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-10263A?style=for-the-badge&logo=docker&logoColor=84BFFF)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-10263A?style=for-the-badge&logo=githubactions&logoColor=84BFFF)
 
 </div>
 
@@ -109,7 +115,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 **LLMs and retrieval:** RAG, LangGraph, LangChain, MCP, ChromaDB, Milvus
 
-**Delivery:** Docker, Azure, GitHub Actions, Railway
+**Delivery and verification:** Docker, Azure, GitHub Actions, Railway
 
 ---
 
@@ -128,7 +134,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 - **AgentGate:** [14 documented tests and Docker CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
 - **RouteWise:** [14 documented tests and Docker CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
 
-**Accurate boundaries:** The browser experiences are simulations. AgentGate uses fixed tool adapters (no real notifications). RouteWise's hosted backend is in explicitly labeled no-provider demo mode until real provider credentials are configured. CodeAtlas has genuine tokenizer payload measurements, not proven end-to-end LLM token savings. The videos are captioned architecture explainers.
+**Implementation boundaries:** The browser experiences are independent simulations. AgentGate uses fixed demo adapters and sends no real notifications. RouteWise has a publicly deployed authenticated API, but no upstream model provider is configured. CodeAtlas's static call graph cannot resolve every dynamic call, and its tokenizer payload measurements do not prove coding-agent cost savings. Walkthrough videos explain architecture rather than capture live model use.
 
 </details>
 
