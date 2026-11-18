@@ -1,157 +1,138 @@
-"""Generate GitHub-safe reference-style README hero, skill ribbon and verified stat panels.
+"""Draw original dark developer-profile graphics matching a GitHub README reference.
 
-GitHub owns the surrounding profile page. These assets only decorate its README.
-Artwork is original. It uses verified project figures, never fabricated stars or commits.
+The README can host images and links, but cannot theme GitHub's own sidebar.
+Counts are engineering evidence from repository tests, not GitHub activity.
 """
 from pathlib import Path
 import math
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont
 
-ROOT=Path(__file__).resolve().parent.parent
-ASSETS=ROOT/"assets"
-ASSETS.mkdir(exist_ok=True)
+OUT=Path(__file__).resolve().parents[1]/"assets"
+OUT.mkdir(exist_ok=True)
 F="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FB="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FM="/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
-BG=(12,17,25)
-PANEL=(27,34,43)
-INK=(239,245,248)
-MUTED=(155,178,189)
-TURQ=(89,232,204)
-CYAN=(101,192,235)
-PURPLE=(177,147,240)
-LIME=(180,224,114)
+BACK=(13,17,23)
+CHARCOAL=(51,52,54)
+WHITE=(244,248,251)
+DIM=(170,184,197)
+MINT=(35,188,174)
+EDGE=(65,82,97)
 
-def font(sz,bold=False,mono=False):
+def face(sz,bold=False,mono=False):
     return ImageFont.truetype(FM if mono else (FB if bold else F),sz)
 
-def center(d,x,y,s,ft,color):
-    r=d.textbbox((0,0),s,font=ft)
-    d.text((x-(r[2]-r[0])/2,y),s,font=ft,fill=color)
+def center(d,x,y,text,font,fill):
+    box=d.textbbox((0,0),text,font=font)
+    d.text((x-(box[2]-box[0])/2,y),text,font=font,fill=fill)
 
-def rounded(d,box,fill,outline=None,radius=18,width=1):
-    d.rounded_rectangle(box,radius=radius,fill=fill,outline=outline,width=width)
+def pill(d,xy,text,color):
+    d.rounded_rectangle(xy,radius=11,fill=(28,40,51),outline=(61,83,94),width=2)
+    x0,y0,x1,y1=xy
+    center(d,(x0+x1)/2,y0+11,text,face(15,bold=True),color)
 
-def start(w,h):
-    im=Image.new("RGB",(w,h),BG)
-    d=ImageDraw.Draw(im)
-    for y in range(h):
-        alpha=y/h
-        d.line((0,y,w,y),fill=(int(13+alpha*7),int(18+alpha*10),int(27+alpha*15)))
-    for x in range(20,w,40):
-        for y in range(20,h,40):
-            d.ellipse((x,y,x+1,y+1),fill=(36,53,65))
+def background(w,h):
+    im=Image.new("RGB",(w,h),BACK)
     return im
 
-def tech_label(d,x,y,w,text,color):
-    rounded(d,(x,y,x+w,y+36),(36,45,55),(65,79,91),10)
-    center(d,x+w//2,y+8,text,font(15,bold=True),color)
-
-def hero_frame(n,total=26):
-    w,h=1200,395
-    theta=n*2*math.pi/total
-    im=start(w,h)
+def hero_frame(i,total=26):
+    W,H=1200,425
+    im=background(W,H)
     d=ImageDraw.Draw(im)
-    # Intro panel imitates the crisp premium README card layout in the reference.
-    rounded(d,(12,12,1188,383),(29,35,42),(58,75,80),19,2)
-    d.text((49,30),"NYK / README.md",font=font(15,mono=True),fill=(143,169,171))
-    d.line((48,63,1152,63),fill=(64,85,86),width=2)
-    d.text((49,88),"GENERATIVE AI ENGINEER",font=font(42,bold=True),fill=INK)
-    d.text((51,147),"NEELI YASWANTH KUMAR",font=font(24),fill=TURQ)
-    d.text((50,198),"PYTHON  /  FASTAPI  /  RAG  /  LANGGRAPH  /  MCP  /  AZURE",font=font(17,mono=True),fill=(197,216,221))
-    for x,size,name,color in [
-        (50,124,"PYTHON",TURQ),(186,130,"FASTAPI",CYAN),(328,96,"RAG",PURPLE),
-        (436,154,"LANGGRAPH",LIME),(602,92,"MCP",TURQ),(706,110,"DOCKER",CYAN)]:
-        tech_label(d,x,250,size,name,color)
-    d.line((49,312,824,312),fill=(61,83,87),width=1)
-    d.text((49,334),"BUILDING RAG, AGENT WORKFLOWS & TESTED PYTHON APIs",font=font(15,mono=True),fill=MUTED)
-    # Decorative geometric branch with animated small "spark" nodes.
-    cx,cy=992,211
-    for j in range(4):
-        phi=(theta*.6+j*math.pi/2)
-        rad=76+j*14
-        ax=cx+math.cos(phi)*rad
-        ay=cy+math.sin(phi)*rad*.75
-        bx=cx+math.cos(phi+2.1)*(rad-14)
-        by=cy+math.sin(phi+2.1)*(rad-14)*.75
-        d.line((ax,ay,bx,by),fill=(59,126,126),width=3)
-    for k in range(3):
-        theta0=k*math.tau/3
-        points=[]
-        for m in range(4):
-            a=theta0+m*math.pi/2
-            r=108 if m%2 else 85
-            points.append((cx+math.cos(a)*r,cy+math.sin(a)*r))
-        d.polygon(points,outline=(52,123,105),width=3)
-    d.rounded_rectangle((922,153,1062,270),radius=21,fill=(24,51,52),outline=TURQ,width=3)
-    center(d,cx,177,"{ AI }",font(31,mono=True),TURQ)
-    # One glowing animated dot signals motion, without bright distracting flashes.
-    px=cx+142*math.cos(theta)
-    py=cy+92*math.sin(theta)
-    d.ellipse((px-8,py-8,px+8,py+8),fill=LIME)
-    d.ellipse((px-13,py-13,px+13,py+13),outline=(91,175,133),width=2)
-    d.text((908,329),"SYSTEMS / 01–03",font=font(14,mono=True),fill=(150,187,176))
-    return im
-
-def generate_hero():
-    frames=[hero_frame(i) for i in range(26)]
-    p=ASSETS/"profile-reference-animated.gif"
-    frames[0].save(p,save_all=True,append_images=frames[1:],duration=130,loop=0,disposal=2,optimize=True)
-    print("header",p.stat().st_size)
-
-def generate_stats():
-    w,h=1200,355
-    im=start(w,h);d=ImageDraw.Draw(im)
-    rounded(d,(12,12,w-13,h-13),(22,29,39),(58,80,89),19,2)
-    d.text((41,32),"ENGINEERING STATS  /  VERIFIED PROJECT EVIDENCE",font=font(18,mono=True),fill=TURQ)
-    cards=[(41,81,589,317),(608,81,1158,317)]
-    for b in cards:rounded(d,b,(28,40,53),(53,85,96),15,2)
-    d.text((64,104),"PROJECT TEST COVERAGE",font=font(17,bold=True),fill=INK)
-    breakdown=[("CodeAtlas MCP",16,TURQ),("AgentGate",14,CYAN),("RouteWise",14,PURPLE)]
-    for i,(label,count,c) in enumerate(breakdown):
-        y=151+i*51
-        d.text((65,y),label,font=font(16),fill=(194,213,222))
-        rounded(d,(262,y+5,490,y+22),(46,63,75),radius=6)
-        rounded(d,(262,y+5,262+int(228*count/16),y+22),c,radius=6)
-        d.text((510,y-1),str(count),font=font(19,bold=True),fill=INK)
-    d.text((66,288),"44 documented Python tests  |  CI verified",font=font(14,mono=True),fill=MUTED)
-    d.text((630,104),"LIVE ENGINEERING SERVICES",font=font(17,bold=True),fill=INK)
-    rows=[
-        ("AGENTGATE", "PUBLIC API · POLICY SIMULATION",TURQ),
-        ("ROUTEWISE", "PUBLIC API · LABELED DEMO MODE",CYAN),
-        ("CODEATLAS", "LOCAL MCP · SOURCE + TESTS",PURPLE),
-    ]
-    for i,(title,detail,c) in enumerate(rows):
-        y=150+52*i
-        d.ellipse((630,y+8,640,y+18),fill=c)
-        d.text((654,y),title,font=font(16,bold=True),fill=c)
-        d.text((654,y+23),detail,font=font(12,mono=True),fill=MUTED)
-    d.text((630,300),"Not star, follower, contribution or cost metrics.",font=font(12),fill=(137,160,170))
-    p=ASSETS/"profile-reference-stats.png"
-    im.save(p,optimize=True)
-    print("stats",p.stat().st_size)
-
-def generate_skillbar():
-    w,h=1200,144
-    im=start(w,h);d=ImageDraw.Draw(im)
-    rounded(d,(12,12,1187,132),(24,34,43),(54,79,84),16,2)
+    d.rounded_rectangle((10,10,W-11,H-11),radius=17,fill=CHARCOAL,outline=(63,73,80),width=2)
+    d.text((55,43),"AI / ENGINEERING PROFILE",font=face(15,mono=True),fill=(137,175,184))
+    d.text((55,76),"Generative AI Engineer",font=face(61,bold=True),fill=WHITE)
+    d.text((57,152),"Neeli Yaswanth Kumar",font=face(29),fill=(207,225,231))
+    d.text((58,194),"Python Backend  /  RAG  /  Agentic AI  /  MCP",font=face(20),fill=(190,201,211))
     techs=[
-        ("PY", "Python",TURQ),("API","FastAPI",CYAN),("LG","LangGraph",PURPLE),
-        ("RAG","Retrieval",LIME),("MCP","MCP Tools",TURQ),("AZ","Azure",CYAN),
-        ("SQL","SQL",PURPLE),("DK","Docker",LIME)
+        ("Py","PYTHON",(85,161,229)),("F","FASTAPI",(66,216,176)),
+        ("LG","LANGGRAPH",(172,154,242)),("R","RAG",(230,186,79)),
+        ("M","MCP",(95,211,217)),("AZ","AZURE",(95,149,238)),
+        ("D","DOCKER",(107,186,242)),
     ]
-    for i,(icon,label,c) in enumerate(techs):
-        x=30+i*146
-        rounded(d,(x,38,x+134,105),(32,45,54),(57,83,91),12)
-        rounded(d,(x+8,47,x+43,92),(30,66,69),radius=8)
-        center(d,x+25,61,icon,font(12,bold=True,mono=True),c)
-        label_sz=12 if len(label)>7 else 14
-        d.text((x+50,65),label,font=font(label_sz,bold=True),fill=INK)
-    p=ASSETS/"profile-reference-skills.png"
-    im.save(p,optimize=True)
-    print("skills",p.stat().st_size)
+    for j,(icon,name,color) in enumerate(techs):
+        left=56+j*125
+        d.rounded_rectangle((left,244,left+44,288),radius=8,fill=(35,44,54),outline=color,width=2)
+        center(d,left+22,253,icon,face(15,bold=True),color)
+        center(d,left+47,300,name,face(11,mono=True),WHITE)
+    d.line((56,340,908,340),fill=(88,99,103),width=1)
+    d.ellipse((59,363,88,392),fill=(22,160,151))
+    center(d,74,367,"@",face(16,bold=True),WHITE)
+    d.text((101,366),"kyaswanthneeli-stack.github.io",font=face(17),fill=(207,222,227))
+    d.ellipse((519,363,548,392),fill=(22,160,151))
+    center(d,534,367,"@",face(16,bold=True),WHITE)
+    d.text((562,366),"kyaswanthneeli@gmail.com",font=face(17),fill=(207,222,227))
+    # Animated star cluster and an original abstract geometric branch, matching the reference feel.
+    t=2*math.pi*i/total
+    cx,cy=1065,99
+    for j,(ox,oy,sz) in enumerate(((0,0,20),(-47,-27,11),(32,25,10))):
+        q=0.85+0.18*math.cos(t+j*2)
+        r=sz*q
+        x=cx+ox;y=cy+oy
+        d.polygon([(x,y-r),(x+r*.35,y-r*.35),(x+r,y),(x+r*.35,y+r*.35),(x,y+r),(x-r*.35,y+r*.35),(x-r,y),(x-r*.35,y-r*.35)],fill=(24,170,156))
+    for step in range(4):
+        x=1052+step*17;y=263+step*25
+        d.polygon([(x,y),(x+35,y+16),(x+21,y+34),(x-12,y+18)],outline=(35,101,83),width=3)
+        d.line((x+8,y+7,x+21,y+34),fill=(32,117,93),width=2)
+    return im
+
+def save_hero():
+    frames=[hero_frame(i) for i in range(26)]
+    dest=OUT/"profile-reference-animated.gif"
+    frames[0].save(dest,save_all=True,append_images=frames[1:],duration=145,
+                   loop=0,disposal=2,optimize=True)
+    print("HERO",dest, dest.stat().st_size)
+
+def save_skills():
+    W,H=1200,161
+    im=background(W,H);d=ImageDraw.Draw(im)
+    d.rounded_rectangle((11,9,W-12,H-10),radius=15,fill=(25,31,40),outline=EDGE,width=2)
+    d.text((34,19),"TECH STACK // CORE TOOLS",font=face(16,mono=True),fill=(139,207,205))
+    names=[
+        ("Python",(89,162,233)),("FastAPI",(69,209,173)),
+        ("LangGraph",(177,155,238)),("LangChain",(183,210,124)),
+        ("RAG",(220,181,96)),("MCP",(83,216,207)),
+        ("Azure",(106,158,239)),("Docker",(100,176,240))]
+    for j,(name,c) in enumerate(names):
+        x=31+j*144
+        pill(d,(x,67,x+136,129),name,c)
+    dest=OUT/"profile-reference-skills.png"
+    im.save(dest,optimize=True)
+    print("SKILLS",dest, dest.stat().st_size)
+
+def save_stats():
+    W,H=1200,363
+    im=background(W,H);d=ImageDraw.Draw(im)
+    d.rounded_rectangle((9,9,W-10,H-10),radius=16,fill=(14,18,26),outline=(49,65,85),width=2)
+    d.rounded_rectangle((22,22,570,342),radius=12,fill=(26,34,48),outline=(52,67,90),width=2)
+    d.rounded_rectangle((583,22,1177,342),radius=12,fill=(26,34,48),outline=(52,67,90),width=2)
+    d.text((49,45),"Neeli Yaswanth Kumar's Engineering Stats",font=face(19,bold=True),fill=(184,207,245))
+    rows=[
+        ("Documented tests in CI", "44",(143,212,198)),
+        ("Featured Python projects","03",(153,187,254)),
+        ("Verified hosted APIs","02",(190,157,244)),
+        ("CodeAtlas MCP tools","05",(133,216,189)),
+    ]
+    for i,(name,value,color) in enumerate(rows):
+        y=100+i*47
+        d.text((49,y),name,font=face(17),fill=(185,205,221))
+        d.text((490,y-2),value,font=face(19,bold=True),fill=color)
+    d.text((49,305),"No fabricated GitHub stars, commits or followers",font=face(13),fill=(113,139,158))
+    stats=[("02","LIVE APIs",(120,207,244)),("44","TESTS",(169,152,250)),("03","PROJECTS",(110,228,187))]
+    for i,(n,label,color) in enumerate(stats):
+        cx=680+i*191
+        d.ellipse((cx-58,111,cx+58,227),outline=(64,91,119),width=6)
+        # Arc segments to resemble the clean reference's circular metrics.
+        d.arc((cx-58,111,cx+58,227),35,285,fill=color,width=7)
+        center(d,cx,141,n,face(40,bold=True),color)
+        center(d,cx,250,label,face(15,bold=True,mono=True),(191,210,227))
+    d.text((610,50),"ENGINEERING DASHBOARD",font=face(20,bold=True),fill=(184,207,245))
+    d.text((616,309),"Verified projects, not live contribution statistics",font=face(13),fill=(128,151,172))
+    dest=OUT/"profile-reference-stats.png"
+    im.save(dest,optimize=True)
+    print("STATS",dest, dest.stat().st_size)
 
 if __name__=="__main__":
-    generate_hero()
-    generate_stats()
-    generate_skillbar()
+    save_hero()
+    save_skills()
+    save_stats()
