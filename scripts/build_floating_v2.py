@@ -100,7 +100,7 @@ def hero_frame(index,n=28):
     rounded(d,(430,347,626,383),(38,38,69),17,(102,96,154))
     txt(d,(63,356),"LOCAL MCP TOOL",13,MINT,mono=True)
     txt(d,(278,356),"2 HOSTED APIs",13,ICE,mono=True)
-    txt(d,(453,356),"44 CI TESTS",13,LAVENDER,mono=True)
+    txt(d,(453,356),"53 CI TESTS",13,LAVENDER,mono=True)
     # Airy central orb: conceptual engineering graphic, not a live trace.
     cx=1043
     cy=198+int(7*math.sin(t))
@@ -201,7 +201,7 @@ def save_metrics():
     d=ImageDraw.Draw(im)
     items=[("03","FEATURED SYSTEMS",MINT),
            ("02","HOSTED DEMO APIs",ICE),
-           ("44","DOCUMENTED TESTS",LAVENDER),
+           ("53","AUTOMATED TESTS",LAVENDER),
            ("05","LOCAL MCP TOOLS",MINT)]
     for i,(number,label,color) in enumerate(items):
         x=8+319*i
