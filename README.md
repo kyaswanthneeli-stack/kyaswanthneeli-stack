@@ -1,4 +1,4 @@
-# Hi, I'm Yaswanth 👋
+# Neeli Yaswanth Kumar
 ### Generative AI Engineer · Python Backend Developer
 
 I build Python services and AI workflows that connect language models to documents, business data, and tools.
@@ -20,7 +20,15 @@ I build Python services and AI workflows that connect language models to documen
 | Data | ChromaDB, Milvus, PostgreSQL, BigQuery, Azure Cognitive Search |
 | Cloud | Azure Functions, Azure, AWS, Git, GitLab |
 
-## Featured public project\n\n### [SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)\n\nA document retrieval workbench with BM25 and keyword ranking, source inspection, local text imports and evaluation. Includes JavaScript tests and a Python CLI.\n\n[Try the live demo](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [Explore my portfolio](https://kyaswanthneeli-stack.github.io/)\n\n## Professional project walkthroughs
+## Featured public project
+
+### [SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)
+
+A document retrieval workbench with BM25 and keyword ranking, source inspection, local text imports and evaluation. Includes JavaScript tests and a Python CLI.
+
+[Try the live demo](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [Explore my portfolio](https://kyaswanthneeli-stack.github.io/)
+
+## Professional project walkthroughs
 **Enterprise knowledge assistant** — Retrieval pipelines connecting enterprise documents to context-aware LLM responses.
 
 **Agentic product and order search** — Multi-step retrieval and tool workflows backed by business data.
