@@ -27,19 +27,29 @@
 
 ---
 
-### Engineering dashboard 📊
+### Technical stack — languages & tools ⚡
 
 <div align="center">
-
-<a href="https://github.com/kyaswanthneeli-stack?tab=repositories">
-  <img src="assets/dark-reference-dashboard.svg" width="100%" alt="Dark GitHub-style engineering dashboard featuring three AI projects, two hosted APIs, 44 documented tests and the Python/FastAPI/RAG technology stack">
-</a>
-
+  <a href="https://github.com/kyaswanthneeli-stack?tab=repositories"><img width="100%" src="assets/profile-reference-skills.png" alt="Python, FastAPI, LangGraph, LangChain, RAG, MCP, Azure and Docker in a developer-style icon ribbon"></a>
 </div>
 
-<sub>Dashboard figures are verified project facts rather than fabricated follower, star, contribution or streak statistics. GitHub's genuine contribution activity remains visible below the README.</sub>
+**Python** · **FastAPI** · **LangGraph** · **LangChain** · **RAG** · **MCP** · **Azure** · **Docker** · SQL · BigQuery · ChromaDB · Milvus · GitHub Actions
 
-**Additional tools:** LangChain · ADK · REST APIs · BigQuery · ChromaDB · Milvus · GitHub Actions · Railway
+### Engineering & GitHub dashboard 📊
+
+<div align="center">
+  <img src="assets/dark-reference-dashboard.svg" width="100%" alt="Two-panel dark engineering dashboard with real CodeAtlas, AgentGate and RouteWise project figures and technology breakdown">
+</div>
+
+<sub>Figures show verified software portfolio evidence. Real GitHub stars, followers and contribution activity appear in GitHub's own profile interface; none are fabricated here.</sub>
+
+### Latest engineering highlights 📌
+
+| System | What it demonstrates | Evidence |
+| --- | --- | --- |
+| **[CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)** | Structural Python code context with AST and SQLite | [CI and token benchmark](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) |
+| **[AgentGate](https://github.com/kyaswanthneeli-stack/agentgate)** | FastAPI tool allowlists, redaction, and one-use approvals | [Public hosted API](https://agentgate-production-00036f18.up.railway.app/docs) |
+| **[RouteWise](https://github.com/kyaswanthneeli-stack/routewise)** | Heuristic model routing and bounded provider failover | [Public hosted API](https://routewise-production-c8aefb65.up.railway.app/docs) |
 
 ---
 
