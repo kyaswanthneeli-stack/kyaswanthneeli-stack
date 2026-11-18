@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://kyaswanthneeli-stack.github.io/"><img src="assets/profile-reference-animated.gif" alt="Dark charcoal developer banner reading Generative AI Engineer — Neeli Yaswanth Kumar, featuring Python, FastAPI, RAG, LangGraph, MCP, Azure and Docker with moving teal geometric accents" width="100%"></a>
+<a href="https://kyaswanthneeli-stack.github.io/"><img src="assets/github-reference-compact.gif" alt="Dark charcoal developer banner reading Generative AI Engineer — Neeli Yaswanth Kumar, featuring Python, FastAPI, RAG, LangGraph, MCP, Azure and Docker with moving teal geometric accents" width="100%"></a>
 
 <a href="https://kyaswanthneeli-stack.github.io/"><img src="https://img.shields.io/badge/🌐_My_Portfolio-16232c?style=for-the-badge&logoColor=white&color=167e7a" alt="My portfolio"></a>
 <a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/"><img src="https://img.shields.io/badge/LinkedIn-16232c?style=for-the-badge&logo=linkedin&logoColor=white&color=1965a8" alt="LinkedIn"></a>
@@ -11,15 +11,13 @@
 
 ### About me ☕
 
-- 👨‍💻 I'm **Neeli Yaswanth Kumar**, focused on **Generative AI, Agentic AI and Python backend engineering**.
-- 🛠️ I build **FastAPI services, RAG pipelines, MCP tools and LLM integration workflows**.
-- 🧪 My public projects include **reproducible tests, architecture diagrams and verified API demonstrations**.
-- 🌍 I'm open to **remote Generative AI Engineer, Agentic AI Engineer and Python Developer** opportunities.
-- 🔗 [Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Contact](mailto:kyaswanthneeli@gmail.com)
+- **Generative AI Engineer** focused on Python APIs, RAG, MCP and agent workflows.
+- **Proof of work:** tested repositories, technical architecture and two hosted FastAPI APIs.
+- **Open to opportunities:** Generative AI, Agentic AI and Python backend roles (remote).
 
 ---
 
-### Latest engineering work 📌
+### Latest work 📌
 
 - **[CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)** — Python AST + SQLite structural context for coding assistants, five MCP tools and call-graph queries. [Explore demo](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html).
 - **[AgentGate](https://github.com/kyaswanthneeli-stack/agentgate)** — Hosted Python API for tool policies, redaction and one-use approvals. [Live API docs](https://agentgate-production-00036f18.up.railway.app/docs) · [Browser demo](https://kyaswanthneeli-stack.github.io/projects/agentgate.html).
@@ -27,29 +25,25 @@
 
 ---
 
-### Technical stack — languages & tools ⚡
+### Engineering & GitHub stats 📊
 
 <div align="center">
-  <a href="https://github.com/kyaswanthneeli-stack?tab=repositories"><img width="100%" src="assets/profile-reference-skills.png" alt="Python, FastAPI, LangGraph, LangChain, RAG, MCP, Azure and Docker in a developer-style icon ribbon"></a>
+
+<img width="100%" src="assets/profile-reference-stats.png" alt="Dark side-by-side developer dashboard showing 44 documented tests across CodeAtlas, AgentGate and RouteWise and two independently deployed Python APIs">
+
 </div>
 
-**Python** · **FastAPI** · **LangGraph** · **LangChain** · **RAG** · **MCP** · **Azure** · **Docker** · SQL · BigQuery · ChromaDB · Milvus · GitHub Actions
+<sub>Verified engineering results rather than invented stars or commit counts. Your real GitHub contribution calendar is shown below the profile README.</sub>
 
-### Engineering & GitHub dashboard 📊
+### Tech stack 🛠️
 
 <div align="center">
-  <img src="assets/dark-reference-dashboard.svg" width="100%" alt="Two-panel dark engineering dashboard with real CodeAtlas, AgentGate and RouteWise project figures and technology breakdown">
+
+<img width="100%" src="assets/profile-reference-skills.png" alt="Compact dark technology bar: Python, FastAPI, LangGraph, LangChain, RAG, MCP, Azure and Docker">
+
 </div>
 
-<sub>Figures show verified software portfolio evidence. Real GitHub stars, followers and contribution activity appear in GitHub's own profile interface; none are fabricated here.</sub>
-
-### Latest engineering highlights 📌
-
-| System | What it demonstrates | Evidence |
-| --- | --- | --- |
-| **[CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)** | Structural Python code context with AST and SQLite | [CI and token benchmark](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) |
-| **[AgentGate](https://github.com/kyaswanthneeli-stack/agentgate)** | FastAPI tool allowlists, redaction, and one-use approvals | [Public hosted API](https://agentgate-production-00036f18.up.railway.app/docs) |
-| **[RouteWise](https://github.com/kyaswanthneeli-stack/routewise)** | Heuristic model routing and bounded provider failover | [Public hosted API](https://routewise-production-c8aefb65.up.railway.app/docs) |
+**Python** · **FastAPI** · **RAG** · **LangGraph** · **LangChain** · **MCP** · **Azure** · **Docker** · SQL · BigQuery · GitHub Actions
 
 ---
 
@@ -104,6 +98,6 @@
 <a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/">LinkedIn</a> ·
 <a href="mailto:kyaswanthneeli@gmail.com">Email</a>
 
-<sub>Dark developer graphics generated with the <a href="scripts/build_reference_readme.py">reproducible Python renderer</a>. The surrounding GitHub layout and profile avatar are controlled by GitHub.</sub>
+<sub>Reference-inspired dark developer graphics generated with the <a href="scripts/build_reference_readme.py">reproducible Python renderer</a>. The surrounding GitHub layout and profile avatar are controlled by GitHub.</sub>
 
 </div>
