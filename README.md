@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://kyaswanthneeli-stack.github.io/"><img src="assets/github-reference-compact.gif" alt="Dark charcoal developer banner reading Generative AI Engineer — Neeli Yaswanth Kumar, featuring Python, FastAPI, RAG, LangGraph, MCP, Azure and Docker with moving teal geometric accents" width="100%"></a>
+<a href="https://kyaswanthneeli-stack.github.io/"><img src="https://raw.githubusercontent.com/kyaswanthneeli-stack/kyaswanthneeli-stack/222cf7b918c1489c70f100b661b8250a2ab58a90/assets/github-reference-compact.gif" alt="Dark charcoal developer banner reading Generative AI Engineer — Neeli Yaswanth Kumar, featuring Python, FastAPI, RAG, LangGraph, MCP, Azure and Docker with moving teal geometric accents" width="100%"></a>
 
 <a href="https://kyaswanthneeli-stack.github.io/"><img src="https://img.shields.io/badge/🌐_My_Portfolio-16232c?style=for-the-badge&logoColor=white&color=167e7a" alt="My portfolio"></a>
 <a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/"><img src="https://img.shields.io/badge/LinkedIn-16232c?style=for-the-badge&logo=linkedin&logoColor=white&color=1965a8" alt="LinkedIn"></a>
@@ -8,6 +8,8 @@
 <a href="mailto:kyaswanthneeli@gmail.com"><img src="https://img.shields.io/badge/Email_Me-16232c?style=for-the-badge&color=267674" alt="Email"></a>
 
 </div>
+
+<div align="center"><sub>◆ PROFILE DESIGN V3 • COMPACT DARK DEVELOPER LAYOUT • UPDATED NOV 18, 2026 ◆</sub></div>
 
 ### About me ☕
 
