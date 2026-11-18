@@ -20,7 +20,13 @@ I build Python services and AI workflows that connect language models to documen
 | Data | ChromaDB, Milvus, PostgreSQL, BigQuery, Azure Cognitive Search |
 | Cloud | Azure Functions, Azure, AWS, Git, GitLab |
 
-## Featured public project
+## Featured public projects
+
+### [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)
+
+A local Python AST and SQLite context server for coding assistants. Five MCP tools expose symbol search, module summaries, bounded call graphs and potential test impact. Includes 16 passing tests, a real stdio protocol integration test, and a reproducible synthetic benchmark with explicit limitations.
+
+[Read the setup and architecture walkthrough](https://github.com/kyaswanthneeli-stack/codeatlas-mcp#readme)
 
 ### [SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)
 
