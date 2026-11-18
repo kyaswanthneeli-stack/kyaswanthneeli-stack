@@ -1,16 +1,30 @@
-## Hi there 👋
+# Hi, I'm Yaswanth 👋
+### Generative AI Engineer · Python Backend Developer
 
-<!--
-**kyaswanthneeli-stack/kyaswanthneeli-stack** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build Python services and AI workflows that connect language models to documents, business data, and tools.
 
-Here are some ideas to get you started:
+**Bengaluru, India · Open to international remote opportunities**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Email](mailto:kyaswanthneeli@gmail.com)
+
+## Engineering focus
+- Enterprise RAG: document ingestion, chunking, embeddings and semantic retrieval.
+- Agentic search: ADK and LangGraph workflows, BigQuery and MCP tool integrations.
+- Backend development: Python, FastAPI, Flask, REST APIs and database integrations.
+- Conversational AI: speech recognition, LLM responses and speech synthesis.
+
+| Area | Technologies |
+| --- | --- |
+| Backend | Python, SQL, FastAPI, Flask, SQLAlchemy |
+| AI | LangGraph, LangChain, ADK, MCP, Claude, OpenAI API |
+| Data | ChromaDB, Milvus, PostgreSQL, BigQuery, Azure Cognitive Search |
+| Cloud | Azure Functions, Azure, AWS, Git, GitLab |
+
+## Featured public project\n\n### [SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)\n\nA document retrieval workbench with BM25 and keyword ranking, source inspection, local text imports and evaluation. Includes JavaScript tests and a Python CLI.\n\n[Try the live demo](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [Explore my portfolio](https://kyaswanthneeli-stack.github.io/)\n\n## Professional project walkthroughs
+**Enterprise knowledge assistant** — Retrieval pipelines connecting enterprise documents to context-aware LLM responses.
+
+**Agentic product and order search** — Multi-step retrieval and tool workflows backed by business data.
+
+**Voice assistant** — Speech-to-Text and Text-to-Speech connected to conversational workflows.
+
+Company code and confidential data are not published. Public demos are independent portfolio projects.
