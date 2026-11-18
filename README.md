@@ -1,80 +1,77 @@
 # Neeli Yaswanth Kumar
-### Generative AI Engineer · Python Backend Developer
+### Generative AI Engineer · Python Backend Developer · Agentic AI
 
-I build Python services and AI workflows that connect language models to documents, business data, and tools.
+**I build Python services that connect language models to useful data and tools.** My focus is backend engineering, Retrieval-Augmented Generation (RAG), MCP integrations, and reliable AI workflows.
 
-**Bengaluru, India · Open to international remote opportunities**
+📍 Bengaluru, India · 🌍 Open to international remote opportunities
 
-[LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Email](mailto:kyaswanthneeli@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Explore-Portfolio-0a7d70?style=for-the-badge)](https://kyaswanthneeli-stack.github.io/)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/)
+[![Email](https://img.shields.io/badge/Email-Let's%20talk-203b5c?style=for-the-badge)](mailto:kyaswanthneeli@gmail.com)
 
-## Engineering focus
-- Enterprise RAG: document ingestion, chunking, embeddings and semantic retrieval.
-- Agentic search: ADK and LangGraph workflows, BigQuery and MCP tool integrations.
-- Backend development: Python, FastAPI, Flask, REST APIs and database integrations.
-- Conversational AI: speech recognition, LLM responses and speech synthesis.
+---
+
+## Featured engineering projects
+
+Real code, repeatable tests, system diagrams, and clearly labeled browser demos. All three are **independent portfolio projects**, not confidential customer systems.
+
+### 01 · [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp) — Structural context for coding assistants
+![CI](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml/badge.svg)
+
+Local Python AST indexing backed by SQLite, with **five MCP tools** for symbol search, call graphs, module summaries, and potential test impact. Includes a stdio protocol test and measured tokenizer payload comparisons (not a claim of verified agent-cost savings).
+
+**Stack:** Python · AST · SQLite · MCP · CLI  
+[Interactive graph demo](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html) · [Architecture & benchmark methodology](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md) · [Video explainer](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/walkthrough.yml)
+
+### 02 · [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) — Policy checks for agent tools
+![CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml/badge.svg) ![Deployment smoke](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml/badge.svg)
+
+A hosted FastAPI gateway with allowlists, request validation, recursive redaction, session limits, and **one-use, request-bound approvals**. The backend runs on Railway; fixed demo adapters do not send real notifications.
+
+**Stack:** Python · FastAPI · Security controls · Docker  
+[Browser policy demo](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) · [Live API docs](https://agentgate-production-00036f18.up.railway.app/docs) · [Architecture & walkthrough](https://github.com/kyaswanthneeli-stack/agentgate/blob/main/docs/ARCHITECTURE_AND_DEMO.md)
+
+### 03 · [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) — Explainable LLM routing gateway
+![CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml/badge.svg) ![Deployment smoke](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml/badge.svg)
+
+A hosted FastAPI gateway for **deterministic routing**, timeout/rate-limit failover, protected metrics, and OpenAI-shaped non-streaming requests. The live API is in labeled **no-provider demo mode** until a real model provider is configured.
+
+**Stack:** Python · FastAPI · HTTPX · Docker  
+[Interactive routing demo](https://kyaswanthneeli-stack.github.io/projects/routewise.html) · [Live API docs](https://routewise-production-c8aefb65.up.railway.app/docs) · [Architecture & walkthrough](https://github.com/kyaswanthneeli-stack/routewise/blob/main/docs/ARCHITECTURE_AND_DEMO.md)
+
+---
+
+## Additional demos
+
+| Project | What it demonstrates | Explore |
+| --- | --- | --- |
+| **[SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)** | BM25/keyword retrieval, source inspection, document imports, evaluation | [Live workbench](https://kyaswanthneeli-stack.github.io/sourcedesk/) |
+| **[EvalBench](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)** | Saved-answer lexical regression testing and JSON reports | [Browser demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) |
+| **[TraceFlow](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)** | Synthetic asynchronous tools, retries, budgets, cancellation | [Browser demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html) |
+
+## What I work with
 
 | Area | Technologies |
 | --- | --- |
-| Backend | Python, SQL, FastAPI, Flask, SQLAlchemy |
-| AI | LangGraph, LangChain, ADK, MCP, Claude, OpenAI API |
-| Data | ChromaDB, Milvus, PostgreSQL, BigQuery, Azure Cognitive Search |
-| Cloud | Azure Functions, Azure, AWS, Git, GitLab |
+| **Backend** | Python, FastAPI, Flask, REST APIs, SQL |
+| **LLM & agents** | RAG, LangGraph, LangChain, ADK, MCP, Claude, OpenAI API |
+| **Search & data** | Embeddings, ChromaDB, Milvus, PostgreSQL, BigQuery, Azure Cognitive Search |
+| **Cloud & delivery** | Azure, AWS, Docker, GitHub Actions, Railway |
 
-## Featured public projects
+## Professional project experience
 
-| Project | Browser demo | Engineering focus |
-| --- | --- | --- |
-| [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp) | [Explore](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html) | Local Python AST indexing, five MCP tools and static call graph exploration. |
-| [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [Explore](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) | Tool allowlists, recursive redaction, session limits and request-bound approvals. |
-| [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [Explore](https://kyaswanthneeli-stack.github.io/projects/routewise.html) | Explainable routing, provider failover and prompt-free request metrics. |
+- **Enterprise knowledge assistants:** document ingestion, chunking, semantic retrieval, and grounded response generation.
+- **Agentic product and order search:** multi-step retrieval and orchestration over structured business data.
+- **Conversational voice AI:** speech recognition, conversational backends, and speech synthesis.
 
-All three have runnable Python implementations. Browser demos use clearly labeled fixtures or simulations; backend services run separately.
+These are descriptions of professional work, not published customer repositories. Confidential source and data are not included.
 
-### [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)
+## Engineering evidence and limits
 
-A local Python AST and SQLite context server for coding assistants. Five MCP tools expose symbol search, module summaries, bounded call graphs and potential test impact. Includes 16 passing tests, a real stdio protocol integration test, and a reproducible synthetic benchmark with explicit limitations.
+- The three featured Python repositories document **44 tests in total** (16 + 14 + 14), with passing GitHub Actions runs.
+- AgentGate and RouteWise have independently verified **public health/docs endpoints** and authentication checks.
+- The browser demos are illustrative. A published frontend is not proof that all integrations are live.
+- CodeAtlas counts tokens using a real tokenizer, but does **not** claim demonstrated end-to-end coding-agent savings.
+- Videos available via GitHub Actions are **captioned architecture explainers**, not recordings of model inference.
 
-[Read the setup and architecture walkthrough](https://github.com/kyaswanthneeli-stack/codeatlas-mcp#readme)
-
-### [SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)
-
-A document retrieval workbench with BM25 and keyword ranking, source inspection, local text imports and evaluation. Includes JavaScript tests and a Python CLI.
-
-[Try the live demo](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [Explore my portfolio](https://kyaswanthneeli-stack.github.io/)
-
-## More interactive projects
-
-| Project | Explore |
-| --- | --- |
-| EvalBench — compare saved answers and inspect regressions | [Live demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) |
-| TraceFlow — inspect simulated workflow retries and call budgets | [Live demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html) |
-
-[Code, tests and engineering notes](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)
-
-## Professional project walkthroughs
-**Enterprise knowledge assistant** — Retrieval pipelines connecting enterprise documents to context-aware LLM responses.
-
-**Agentic product and order search** — Multi-step retrieval and tool workflows backed by business data.
-
-**Voice assistant** — Speech-to-Text and Text-to-Speech connected to conversational workflows.
-
-Company code and confidential data are not published. Public demos are independent portfolio projects.
-
-## Verified live API deployments
-
-| Python service | Hosted API documentation | Public smoke-test evidence | Security / behavior |
-| --- | --- | --- | --- |
-| [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [Live Swagger API](https://agentgate-production-00036f18.up.railway.app/docs) | [Verified health, docs and HTTP 401](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml) | API-key protected; fixed simulated tool adapters |
-| [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [Live Swagger API](https://routewise-production-c8aefb65.up.railway.app/docs) | [Verified health, docs and HTTP 401](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml) | Bearer protected; real model keys not configured, demo responses labeled |
-
-Both backends are deployed on Railway with secret credentials stored outside GitHub. The public documentation and unauthenticated health checks are accessible; protected requests require credentials. No paid LLM provider is attached. This is a portfolio deployment, **not** a claim of production compliance or real external tool execution.
-
-## Verified engineering evidence (GitHub Actions)
-
-| Featured project | Tests and build | Architecture and walkthrough | Captioned video |
-| --- | --- | --- | --- |
-| [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp) | [CI + real tokenizer benchmark artifact](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) | [Diagram and measurement limits](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/walkthrough.yml) |
-| [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [CI + Docker build](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) | [Architecture and deployment guide](https://github.com/kyaswanthneeli-stack/agentgate/blob/main/docs/ARCHITECTURE_AND_DEMO.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/walkthrough.yml) |
-| [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [CI + Docker build](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) | [Architecture and deployment guide](https://github.com/kyaswanthneeli-stack/routewise/blob/main/docs/ARCHITECTURE_AND_DEMO.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/walkthrough.yml) |
-
-**Current deployment status:** GitHub Pages hosts static project demos; AgentGate and RouteWise Python services are independently deployed to Railway and their public health/docs endpoints passed hosted smoke tests. API credentials are stored in Railway, while real model inference remains unconfigured. The 20-second MP4 files are silent, captioned architecture explainers—not recordings of live model calls. CodeAtlas token measurement counts actual tokenizer payloads; it does not claim equal-task agent savings.
+**For recruiters:** explore the [portfolio](https://kyaswanthneeli-stack.github.io/), inspect the linked repositories, or [email me](mailto:kyaswanthneeli@gmail.com) about Generative AI / Python backend engineering roles.
