@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="675" viewBox="0 0 1160 675" role="img" aria-label="Neeli Yaswanth Kumar engineering dashboard with real portfolio projects and verified engineering counts">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#141a25"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+  <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#123f42"/><stop offset=".55" stop-color="#203848"/><stop offset="1" stop-color="#282333"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#29baa8"/><stop offset="1" stop-color="#7ce6cc"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="1160" height="675" rx="23" fill="url(#bg)" stroke="#344257" stroke-width="2"/>
+<rect x="23" y="22" width="1114" height="79" rx="15" fill="#262e37" stroke="#435365"/>
+<circle cx="48" cy="44" r="6" fill="#f17d7d"/><circle cx="67" cy="44" r="6" fill="#f0c36a"/><circle cx="86" cy="44" r="6" fill="#58c998"/>
+<text x="111" y="50" font-size="15" font-family="monospace" fill="#a8bdcb">kyaswanthneeli-stack / README.md</text>
+<text x="47" y="83" font-size="19" font-weight="700" font-family="Arial,sans-serif" fill="#f1f5fb">AI ENGINEERING   /   PROJECT DASHBOARD</text>
+<text x="1111" y="78" text-anchor="end" font-family="monospace" font-size="13" fill="#6ee6d2">BUILD • TEST • DEPLOY</text>
+<rect x="23" y="119" width="1114" height="155" rx="15" fill="url(#sh)" stroke="#365d65"/>
+<text x="48" y="151" font-family="monospace" font-size="14" fill="#87e4d4">01  /  VERIFIED SYSTEMS</text>
+<text x="48" y="202" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#edf6fb">Building practical AI systems.</text>
+<text x="49" y="238" font-family="Arial,sans-serif" font-size="17" fill="#afcbd3">Code intelligence  •  Agent policy controls  •  LLM routing infrastructure</text>
+<g fill="#89ecd9">
+<path d="M1065 146 l11 24 24 10 -24 10 -11 24 -11 -24 -24 -10 24 -10z" opacity=".87"/>
+<path d="M1100 137 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5z" opacity=".55"/>
+</g>
+<text x="30" y="308" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f5f8fd">Engineering evidence</text>
+<g>
+  <rect x="25" y="329" width="356" height="171" rx="14" fill="#1b2332" stroke="#33465a"/>
+  <text x="50" y="365" font-family="monospace" font-size="14" fill="#a2bdd0">FEATURED PROJECTS</text>
+  <text x="50" y="441" font-family="Arial,sans-serif" font-size="67" font-weight="700" fill="#95efdb">03</text>
+  <text x="165" y="416" font-family="Arial,sans-serif" font-size="18" fill="#d9e6ef">CodeAtlas MCP</text><text x="165" y="443" font-family="Arial,sans-serif" font-size="18" fill="#d9e6ef">AgentGate · RouteWise</text>
+  <rect x="396" y="329" width="356" height="171" rx="14" fill="#1b2332" stroke="#33465a"/>
+  <text x="421" y="365" font-family="monospace" font-size="14" fill="#a2bdd0">HOSTED PYTHON APIs</text>
+  <text x="420" y="441" font-family="Arial,sans-serif" font-size="67" font-weight="700" fill="#a9caff">02</text>
+  <text x="535" y="415" font-family="Arial,sans-serif" font-size="18" fill="#d9e6ef">Railway + FastAPI</text><text x="535" y="443" font-family="Arial,sans-serif" font-size="15" fill="#a1b8cc">Health / docs verified</text>
+  <rect x="767" y="329" width="369" height="171" rx="14" fill="#1b2332" stroke="#33465a"/>
+  <text x="792" y="365" font-family="monospace" font-size="14" fill="#a2bdd0">DOCUMENTED CI TESTS</text>
+  <text x="791" y="441" font-family="Arial,sans-serif" font-size="67" font-weight="700" fill="#ccadff">44</text>
+  <text x="915" y="405" font-family="monospace" font-size="14" fill="#dce6f3">16 · CodeAtlas</text><text x="915" y="431" font-family="monospace" font-size="14" fill="#dce6f3">14 · AgentGate</text><text x="915" y="457" font-family="monospace" font-size="14" fill="#dce6f3">14 · RouteWise</text>
+</g>
+<text x="31" y="540" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#f5f8fd">Technology stack</text>
+<g font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">
+<rect x="25" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="36" y="572" width="7" height="43" rx="3" fill="#5db2ed"/><text x="99" y="602" fill="#5db2ed">Python</text>
+<rect x="167" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="178" y="572" width="7" height="43" rx="3" fill="#69d6aa"/><text x="241" y="602" fill="#69d6aa">FastAPI</text>
+<rect x="309" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="320" y="572" width="7" height="43" rx="3" fill="#e8c277"/><text x="383" y="602" fill="#e8c277">RAG</text>
+<rect x="451" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="462" y="572" width="7" height="43" rx="3" fill="#bea7f7"/><text x="525" y="602" fill="#bea7f7">LangGraph</text>
+<rect x="593" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="604" y="572" width="7" height="43" rx="3" fill="#77ead5"/><text x="667" y="602" fill="#77ead5">MCP</text>
+<rect x="735" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="746" y="572" width="7" height="43" rx="3" fill="#9bbcff"/><text x="809" y="602" fill="#9bbcff">Azure</text>
+<rect x="877" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="888" y="572" width="7" height="43" rx="3" fill="#93c9ff"/><text x="951" y="602" fill="#93c9ff">Docker</text>
+<rect x="1019" y="560" width="134" height="66" rx="11" fill="#233242" stroke="#45617a"/><rect x="1030" y="572" width="7" height="43" rx="3" fill="#f0b78a"/><text x="1093" y="602" fill="#f0b78a">SQL</text>
+</g>
+<text x="34" y="653" font-family="Arial,sans-serif" font-size="13" fill="#8fa8ba">Real portfolio engineering evidence • demo tools and unconfigured upstream models are disclosed in the project READMEs</text>
+</svg>
