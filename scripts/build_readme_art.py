@@ -133,6 +133,42 @@ def create_cards():
         im.save(out,optimize=True)
         print(f"Card: {out.name} ({out.stat().st_size:,} bytes)")
 
+
+def create_avatar():
+    """Matching GitHub avatar users can choose to upload in Settings > Public profile."""
+    w=h=512
+    im=gradient((w,h),(6,17,32),(15,37,58))
+    glow(im,(260,248),170,(27,208,191),110)
+    glow(im,(120,400),112,(120,99,228),73)
+    d=ImageDraw.Draw(im)
+    for radius, col, thick in (
+        (219,(42,111,126),3),
+        (191,(85,170,176),2),
+        (168,(42,92,114),2),
+    ):
+        d.ellipse((256-radius,256-radius,256+radius,256+radius),outline=col,width=thick)
+    # Deliberately geometric: not a simulated human face.
+    for i in range(10):
+        angle=(i/10)*math.tau
+        r=200
+        x=int(256+math.cos(angle)*r)
+        y=int(256+math.sin(angle)*r)
+        d.ellipse((x-4,y-4,x+4,y+4),fill=(134,243,221))
+    d.rounded_rectangle((88,156,424,351),radius=54,fill=(12,33,53),outline=(118,235,209),width=4)
+    title_font=font(115,bold=True)
+    text="NYK"
+    box=d.textbbox((0,0),text,font=title_font)
+    tw=box[2]-box[0]
+    d.text(((w-tw)/2,175),text,font=title_font,fill=(212,255,246))
+    tiny=font(20,mono=True)
+    text2="AI ENGINEERING"
+    box2=d.textbbox((0,0),text2,font=tiny)
+    d.text(((w-(box2[2]-box2[0]))/2,310),text2,font=tiny,fill=(124,221,210))
+    output=OUT/"nyk-avatar-option.png"
+    im.save(output,optimize=True)
+    print(f"Avatar: {output.name} ({output.stat().st_size:,} bytes)")
+
 if __name__=="__main__":
     create_banner()
     create_cards()
+    create_avatar()
