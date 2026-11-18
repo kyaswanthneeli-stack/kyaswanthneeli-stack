@@ -4,6 +4,7 @@ Not an official contribution calendar. Shows public push events in a recent
 30-day window; missing or private events are not represented as contributions.
 """
 import json
+import os
 import urllib.request
 from collections import Counter
 from datetime import date, timedelta, datetime, timezone
@@ -13,8 +14,10 @@ from pathlib import Path
 LOGIN="kyaswanthneeli-stack"
 OUT=Path("assets/github-contributions.svg")
 url=f"https://api.github.com/users/{LOGIN}/events/public?per_page=100"
+TOKEN=os.environ.get("GITHUB_TOKEN")
 req=urllib.request.Request(url,headers={
   "Accept":"application/vnd.github+json",
+  **({"Authorization":"Bearer "+TOKEN} if TOKEN else {}),
   "User-Agent":"NYK-github-activity-graph",
   "X-GitHub-Api-Version":"2022-11-28"
 })
