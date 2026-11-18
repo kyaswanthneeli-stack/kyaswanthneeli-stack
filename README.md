@@ -65,7 +65,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 **Policy checks for agent tool requests.** The hosted FastAPI prototype validates allowlisted tools, redacts selected sensitive patterns and enforces one-use approvals; its two adapters use simulated data.
 
-[**Try policy demo**](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) · [**Live Python API**](https://agentgate-production-00036f18.up.railway.app/docs)
+[**Try live policy inspection**](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) · [**Live Python API**](https://agentgate-production-00036f18.up.railway.app/docs)
 
 [![AgentGate deployment check](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml/badge.svg)](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
 </td>
@@ -75,9 +75,9 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 **[RouteWise](https://github.com/kyaswanthneeli-stack/routewise)**
 
-**Explainable request routing, with conditional fallback.** The hosted FastAPI service uses heuristics to select fast/reasoning routes and can retry configured providers on eligible failures. Its public deployment currently returns labeled demo responses.
+**Explainable request routing, with conditional fallback.** The hosted FastAPI service uses heuristics to select fast/reasoning routes and can retry configured providers on eligible failures. Its public route-inspection endpoint performs real server-side classification; model responses remain labeled demos until provider credentials are configured.
 
-[**Try routing demo**](https://kyaswanthneeli-stack.github.io/projects/routewise.html) · [**Live Python API**](https://routewise-production-c8aefb65.up.railway.app/docs)
+[**Try live routing**](https://kyaswanthneeli-stack.github.io/projects/routewise.html) · [**Live Python API**](https://routewise-production-c8aefb65.up.railway.app/docs)
 
 [![RouteWise deployment check](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml/badge.svg)](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
 </td>
@@ -88,7 +88,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 ### <code>03 //</code> Engineering evidence, not vanity metrics
 
-<img src="./assets/verified-metrics-v2.png" width="100%" alt="Dark glass-style AI engineering dashboard with 3 featured projects, 2 hosted FastAPI services, 44 documented Python tests and 5 CodeAtlas MCP tools">
+<img src="./assets/verified-metrics-v2.png" width="100%" alt="Dark glass-style AI engineering dashboard with 3 featured projects, 2 hosted FastAPI services, 53 automated Python tests and 5 CodeAtlas MCP tools">
 
 <sub>Documented implementation scope and CI checks—not GitHub popularity, real LLM savings or paid-provider activity.</sub>
 
@@ -131,10 +131,10 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 <summary><strong>Engineering verification, deployment scope and video walkthroughs</strong></summary>
 
 - **CodeAtlas MCP:** [16 documented tests and tokenizer benchmark](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) · [architecture walkthrough](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/walkthrough.yml)
-- **AgentGate:** [14 documented tests and Docker CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
-- **RouteWise:** [14 documented tests and Docker CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
+- **AgentGate:** [19 automated tests and Docker CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
+- **RouteWise:** [18 automated tests and Docker CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
 
-**Implementation boundaries:** The browser experiences are independent simulations. AgentGate uses fixed demo adapters and sends no real notifications. RouteWise has a publicly deployed authenticated API, but no upstream model provider is configured. CodeAtlas's static call graph cannot resolve every dynamic call, and its tokenizer payload measurements do not prove coding-agent cost savings. Walkthrough videos explain architecture rather than capture live model use.
+**Implementation boundaries:** CodeAtlas uses a fixed browser graph fixture; AgentGate and RouteWise browser explorers use live Python FastAPI endpoints. AgentGate uses fixed demo adapters and sends no real notifications. RouteWise has a publicly deployed authenticated API, but no upstream model provider is configured. CodeAtlas's static call graph cannot resolve every dynamic call, and its tokenizer payload measurements do not prove coding-agent cost savings. Walkthrough videos explain architecture rather than capture live model use.
 
 </details>
 
@@ -148,6 +148,6 @@ Interested in **Generative AI Engineer**, **Agentic AI Engineer**, and **Python 
 
 [**Portfolio**](https://kyaswanthneeli-stack.github.io/) &nbsp; · &nbsp; [**LinkedIn**](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) &nbsp; · &nbsp; [**Email**](mailto:kyaswanthneeli@gmail.com)
 
-<sub>Floating graphics are real looping GIF animations, built with [the open-source portfolio animation script](scripts/build_floating_portfolio.py) and [GitHub Actions](https://github.com/kyaswanthneeli-stack/kyaswanthneeli-stack/actions/workflows/floating-profile.yml). GitHub controls the avatar and surrounding sidebar.</sub>
+<sub>Floating graphics are real looping GIF animations, built with [the open-source graphics script](scripts/build_floating_v2.py) and [GitHub Actions](https://github.com/kyaswanthneeli-stack/kyaswanthneeli-stack/actions/workflows/floating-v2.yml). GitHub controls the avatar and surrounding sidebar.</sub>
 
 </div>
