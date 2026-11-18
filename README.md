@@ -1,89 +1,86 @@
 <div align="center">
 
-<a href="https://kyaswanthneeli-stack.github.io/"><img width="100%" src="assets/profile-reference-animated.gif" alt="Animated dark GitHub profile-style hero for Neeli Yaswanth Kumar, Generative AI Engineer, showing Python, FastAPI, RAG, LangGraph, MCP, Docker and glowing green geometric details"></a>
+<a href="https://kyaswanthneeli-stack.github.io/"><img src="assets/profile-reference-animated.gif" alt="Dark charcoal developer banner reading Generative AI Engineer — Neeli Yaswanth Kumar, featuring Python, FastAPI, RAG, LangGraph, MCP, Azure and Docker with moving teal geometric accents" width="100%"></a>
 
-### Generative AI Engineer · Python Backend Developer · Agentic AI
-
-**Building real Python backends, retrieval systems, MCP integrations and tested AI workflows.**
-
-<a href="https://kyaswanthneeli-stack.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-1a8f80?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="mailto:kyaswanthneeli@gmail.com"><img src="https://img.shields.io/badge/EMAIL-344f61?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a> <a href="https://github.com/kyaswanthneeli-stack?tab=repositories"><img src="https://img.shields.io/badge/PROJECTS-6654a0?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
+<a href="https://kyaswanthneeli-stack.github.io/"><img src="https://img.shields.io/badge/🌐_My_Portfolio-16232c?style=for-the-badge&logoColor=white&color=167e7a" alt="My portfolio"></a>
+<a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/"><img src="https://img.shields.io/badge/LinkedIn-16232c?style=for-the-badge&logo=linkedin&logoColor=white&color=1965a8" alt="LinkedIn"></a>
+<a href="https://github.com/kyaswanthneeli-stack?tab=repositories"><img src="https://img.shields.io/badge/My_Projects-16232c?style=for-the-badge&logo=github&logoColor=white&color=455c7a" alt="Repositories"></a>
+<a href="mailto:kyaswanthneeli@gmail.com"><img src="https://img.shields.io/badge/Email_Me-16232c?style=for-the-badge&color=267674" alt="Email"></a>
 
 </div>
 
-### 👋 About me
+### About me ☕
 
-I'm **Neeli Yaswanth Kumar**. I build AI applications and Python backend services that connect language models to real business information and tools.
-
-- 🔭 **What I build:** RAG pipelines, MCP tools, FastAPI services and agent workflows
-- ⚙️ **Engineering interests:** reliability, tool policies, retrieval quality, testing and deployment
-- 🚀 **Public evidence:** repositories, passing tests, architecture explanations and deployed API documentation
-- 🌏 **Career:** open to Generative AI and Python engineering roles, including international remote opportunities
-
-### 🛠️ Languages, frameworks and tools
-
-<div align="center">
-  <img width="100%" src="assets/profile-reference-skills.png" alt="Developer toolbar showing Python, FastAPI, LangGraph, RAG, MCP, Azure, SQL and Docker">
-</div>
-
-**Also working with:** LangChain · ADK · ChromaDB · Milvus · BigQuery · GitHub Actions · Railway · REST APIs
+- 👨‍💻 I'm **Neeli Yaswanth Kumar**, focused on **Generative AI, Agentic AI and Python backend engineering**.
+- 🛠️ I build **FastAPI services, RAG pipelines, MCP tools and LLM integration workflows**.
+- 🧪 My public projects include **reproducible tests, architecture diagrams and verified API demonstrations**.
+- 🌍 I'm open to **remote Generative AI Engineer, Agentic AI Engineer and Python Developer** opportunities.
+- 🔗 [Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Contact](mailto:kyaswanthneeli@gmail.com)
 
 ---
 
-### ✦ Selected engineering projects
+### Latest engineering work 📌
+
+- **[CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)** — Python AST + SQLite structural context for coding assistants, five MCP tools and call-graph queries. [Explore demo](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html).
+- **[AgentGate](https://github.com/kyaswanthneeli-stack/agentgate)** — Hosted Python API for tool policies, redaction and one-use approvals. [Live API docs](https://agentgate-production-00036f18.up.railway.app/docs) · [Browser demo](https://kyaswanthneeli-stack.github.io/projects/agentgate.html).
+- **[RouteWise](https://github.com/kyaswanthneeli-stack/routewise)** — Hosted explainable routing gateway, failover and request metrics. [Live API docs](https://routewise-production-c8aefb65.up.railway.app/docs) · [Browser demo](https://kyaswanthneeli-stack.github.io/projects/routewise.html).
+
+---
+
+### GitHub engineering dashboard 📊
+
+<div align="center">
+  <a href="https://github.com/kyaswanthneeli-stack?tab=repositories"><img src="assets/profile-reference-stats.png" width="100%" alt="Dark GitHub-style two-panel engineering dashboard with 44 documented Python tests across three projects and two verified public APIs"></a>
+</div>
+
+<sub>These dashboard numbers come from project implementations and successful CI checks—not fabricated GitHub stars, followers, historical contributions, or streak counts. GitHub displays your genuine contribution calendar below the profile README.</sub>
+
+### Languages & tools 💻
+
+<div align="center">
+  <img src="assets/profile-reference-skills.png" width="100%" alt="Dark developer tech ribbon featuring Python, FastAPI, LangGraph, LangChain, RAG, MCP, Azure and Docker">
+</div>
+
+**Also:** REST APIs · SQL · BigQuery · ChromaDB · Milvus · GitHub Actions · Railway
+
+---
+
+### Featured projects 🚀
 
 <table>
 <tr>
 <td width="33%" valign="top">
-  <a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp"><img width="100%" src="assets/codeatlas-cyber.png" alt="CodeAtlas MCP project graphic"></a>
-  <h3>CodeAtlas MCP</h3>
-  <p><b>Structure-aware coding agent context</b></p>
-  <p>Python AST + SQLite index with five MCP tools, symbol queries, static call graphs and potential test-impact discovery.</p>
-  <p><a href="https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html">Try demo ↗</a> · <a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp">Source ↗</a></p>
-  <a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml"><img alt="CodeAtlas CI status" src="https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp"><img src="assets/codeatlas-cyber.png" width="100%" alt="CodeAtlas MCP cover image"></a>
+  <p><b>CodeAtlas MCP</b><br>Code structure, call graphs, MCP stdio server</p>
+  <a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml"><img alt="CodeAtlas CI" src="https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml/badge.svg"></a>
+  <p><a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md">Architecture & benchmark ↗</a></p>
 </td>
 <td width="33%" valign="top">
-  <a href="https://github.com/kyaswanthneeli-stack/agentgate"><img width="100%" src="assets/agentgate-cyber.png" alt="AgentGate project graphic"></a>
-  <h3>AgentGate</h3>
-  <p><b>Safety policies for AI tool calls</b></p>
-  <p>Hosted FastAPI policy gateway with allowlists, PII redaction, bounded calls and one-use approvals. Simulated tool execution.</p>
-  <p><a href="https://kyaswanthneeli-stack.github.io/projects/agentgate.html">Try demo ↗</a> · <a href="https://agentgate-production-00036f18.up.railway.app/docs">Live API ↗</a></p>
-  <a href="https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml"><img alt="AgentGate API smoke check" src="https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml/badge.svg"></a>
+  <a href="https://github.com/kyaswanthneeli-stack/agentgate"><img src="assets/agentgate-cyber.png" width="100%" alt="AgentGate cover image"></a>
+  <p><b>AgentGate</b><br>Tool allowlists, redaction, request-bound approvals</p>
+  <a href="https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml"><img alt="AgentGate public deployment check" src="https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml/badge.svg"></a>
+  <p><a href="https://github.com/kyaswanthneeli-stack/agentgate/blob/main/docs/ARCHITECTURE_AND_DEMO.md">Architecture & walkthrough ↗</a></p>
 </td>
 <td width="33%" valign="top">
-  <a href="https://github.com/kyaswanthneeli-stack/routewise"><img width="100%" src="assets/routewise-cyber.png" alt="RouteWise project graphic"></a>
-  <h3>RouteWise</h3>
-  <p><b>Explainable LLM routing and fallback</b></p>
-  <p>FastAPI routing, bounded provider failover and authenticated metrics. Hosted API uses explicitly labeled no-provider demo responses.</p>
-  <p><a href="https://kyaswanthneeli-stack.github.io/projects/routewise.html">Try demo ↗</a> · <a href="https://routewise-production-c8aefb65.up.railway.app/docs">Live API ↗</a></p>
-  <a href="https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml"><img alt="RouteWise API smoke check" src="https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml/badge.svg"></a>
+  <a href="https://github.com/kyaswanthneeli-stack/routewise"><img src="assets/routewise-cyber.png" width="100%" alt="RouteWise cover image"></a>
+  <p><b>RouteWise</b><br>Heuristic model routing, failover, metrics</p>
+  <a href="https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml"><img alt="RouteWise public deployment check" src="https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml/badge.svg"></a>
+  <p><a href="https://github.com/kyaswanthneeli-stack/routewise/blob/main/docs/ARCHITECTURE_AND_DEMO.md">Architecture & walkthrough ↗</a></p>
 </td>
 </tr>
 </table>
 
-### 📊 Engineering stats
+### Other interactive projects
 
-<div align="center">
-  <img width="100%" src="assets/profile-reference-stats.png" alt="Side-by-side dashboard panels with real documented test counts for CodeAtlas, AgentGate and RouteWise and verification of two hosted API services">
-</div>
-
-<sub>These are real documented engineering counts, not invented stars, follower totals, commits or contribution streaks. GitHub displays its authentic contribution calendar on the profile itself.</sub>
-
-### 🔬 Other working demos
-
-| Project | Interactive workbench | Focus |
-|:--|:--|:--|
-| **[SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)** | [Explore](https://kyaswanthneeli-stack.github.io/sourcedesk/) | BM25 retrieval, document source inspection and evaluation |
-| **[EvalBench](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)** | [Explore](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) | Saved-answer lexical evaluation and regression |
-| **[TraceFlow](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)** | [Explore](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html) | Simulated async workflow retries and traces |
+[**SourceDesk — Retrieval workbench**](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [**EvalBench — Answer evaluation**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) · [**TraceFlow — Workflow tracing**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html)
 
 <details>
-<summary><b>▸ Architecture, benchmarks and evidence</b></summary>
+<summary><b>Explore technical details and limitations</b></summary>
 
-- [CodeAtlas architecture and tokenizer benchmark](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md) · [16 documented tests](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml)
-- [AgentGate architecture](https://github.com/kyaswanthneeli-stack/agentgate/blob/main/docs/ARCHITECTURE_AND_DEMO.md) · [14 documented tests](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [Public API check](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
-- [RouteWise architecture](https://github.com/kyaswanthneeli-stack/routewise/blob/main/docs/ARCHITECTURE_AND_DEMO.md) · [14 documented tests](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [Public API check](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
-
-The browser demos are clearly labeled simulations. AgentGate's example tools do not perform external actions; RouteWise requires server-side provider credentials for real model inference. CodeAtlas's tokenizer measurement does not prove end-to-end agent token savings.
+- **CodeAtlas:** AST-based candidate graphs and a local MCP server. [Tests and measured tokenizer counts](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml). Token payload size alone does not prove agent cost savings.
+- **AgentGate:** Live FastAPI endpoints with fixed, simulated tool adapters; sensitive requests require credentials and some actions require approvals. [API security checks](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml).
+- **RouteWise:** Live FastAPI with labeled fixture responses until provider credentials are configured. Browser failures and examples are simulated. [API security checks](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml).
+- [Project architecture explainer videos](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/walkthrough.yml) are captioned animations, not recorded live model calls.
 
 </details>
 
@@ -91,12 +88,14 @@ The browser demos are clearly labeled simulations. AgentGate's example tools do 
 
 <div align="center">
 
-### Let's work on AI that actually ships.
+### Let's build useful AI together 🤝
 
-**Generative AI Engineer · Python Backend Engineer · Agentic AI Engineer**
+**Generative AI Engineer | Python Backend Engineer | Agentic AI Engineer**
 
-[**Portfolio**](https://kyaswanthneeli-stack.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [**GitHub**](https://github.com/kyaswanthneeli-stack?tab=repositories) · [**Email**](mailto:kyaswanthneeli@gmail.com)
+<a href="https://kyaswanthneeli-stack.github.io/">Portfolio</a> ·
+<a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/">LinkedIn</a> ·
+<a href="mailto:kyaswanthneeli@gmail.com">Email</a>
 
-<sub>Original developer-themed artwork is generated by the reproducible <a href="scripts/build_reference_readme.py">README graphic renderer</a>. GitHub owns the surrounding page layout and appearance.</sub>
+<sub>Dark developer graphics generated with the <a href="scripts/build_reference_readme.py">reproducible Python renderer</a>. The surrounding GitHub layout and profile avatar are controlled by GitHub.</sub>
 
 </div>
