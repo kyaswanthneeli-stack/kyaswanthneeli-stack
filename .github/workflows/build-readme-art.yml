@@ -1,0 +1,51 @@
+name: Build animated profile artwork
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_readme_art.py'
+      - '.github/workflows/build-readme-art.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image tooling
+        run: python -m pip install 'Pillow>=10,<13'
+      - name: Render animated GIF and three project images
+        run: python scripts/build_readme_art.py
+      - name: Verify generated assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          root=Path("assets")
+          expected=["nyk-animated-banner.gif", "codeatlas-card.png", "agentgate-card.png", "routewise-card.png"]
+          for name in expected:
+              item=root/name
+              assert item.exists() and item.stat().st_size>5000,(name,"missing/too small")
+              im=Image.open(item)
+              if name.endswith(".gif"): assert getattr(im,"n_frames",0)==30
+              print(name, im.size, item.stat().st_size)
+          PY
+      - name: Commit artwork into the profile repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/nyk-animated-banner.gif assets/codeatlas-card.png assets/agentgate-card.png assets/routewise-card.png
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: publish animated profile hero and project cards"
+            git push origin HEAD:main
+          else
+            echo "Artwork unchanged"
+          fi
