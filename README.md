@@ -59,3 +59,13 @@ A document retrieval workbench with BM25 and keyword ranking, source inspection,
 **Voice assistant** — Speech-to-Text and Text-to-Speech connected to conversational workflows.
 
 Company code and confidential data are not published. Public demos are independent portfolio projects.
+
+## Verified engineering evidence (GitHub Actions)
+
+| Featured project | Tests and build | Architecture and walkthrough | Captioned video |
+| --- | --- | --- | --- |
+| [CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp) | [CI + real tokenizer benchmark artifact](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) | [Diagram and measurement limits](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/walkthrough.yml) |
+| [AgentGate](https://github.com/kyaswanthneeli-stack/agentgate) | [CI + Docker build](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) | [Architecture and deployment guide](https://github.com/kyaswanthneeli-stack/agentgate/blob/main/docs/ARCHITECTURE_AND_DEMO.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/walkthrough.yml) |
+| [RouteWise](https://github.com/kyaswanthneeli-stack/routewise) | [CI + Docker build](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) | [Architecture and deployment guide](https://github.com/kyaswanthneeli-stack/routewise/blob/main/docs/ARCHITECTURE_AND_DEMO.md) | [MP4 Actions artifact](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/walkthrough.yml) |
+
+**Accurate deployment status:** GitHub Pages hosts static project demos. The AgentGate and RouteWise Python backend Dockerfiles and Railway configs are prepared, but live backend URLs require external hosting and private API credentials. The 20-second MP4 files are silent, captioned architecture explainers—not recordings of live model calls. CodeAtlas token measurement counts actual tokenizer payloads; it does not claim equal-task agent savings.
