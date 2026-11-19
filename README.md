@@ -119,7 +119,19 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 ---
 
-### <code>05 //</code> The experimentation lab
+### <code>05 //</code> Flagship in progress: RepoPilot
+
+**[RepoPilot — issue-to-patch engineering harness](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/)**
+
+An inspectable Python workflow for GitHub issue retrieval, AST code context, LLM patch proposals, Docker verification, offline execution evidence, and approval-gated draft PR publishing.
+
+[**Explore recruiter walkthrough**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/) · [**Read source**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [**View tested Docker fail-before/pass-after proof**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml)
+
+**Evidence boundary:** The reference patch is genuinely verified in Docker. Live model-generated issue resolution, real draft PR publication and SWE-bench resolution rates have **not** yet been demonstrated. They are not presented as completed capabilities.
+
+---
+
+### <code>06 //</code> The experimentation lab
 
 | Experience | What it shows | Try it |
 |:--|:--|:--|
