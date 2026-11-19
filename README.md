@@ -125,9 +125,9 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 An inspectable Python workflow for GitHub issue retrieval, AST code context, LLM patch proposals, Docker verification, offline execution evidence, and approval-gated draft PR publishing.
 
-[**Explore recruiter walkthrough**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/) · [**Read source**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [**View tested Docker fail-before/pass-after proof**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml)
+[**Real AI-generated run dashboard**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/model-run.html) · [**Draft PR #2**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/pull/2) · [**Explore recruiter walkthrough**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/) · [**Read source**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [**View tested Docker fail-before/pass-after proof**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml)
 
-**Evidence boundary:** The reference patch is genuinely verified in Docker. Live model-generated issue resolution, real draft PR publication and SWE-bench resolution rates have **not** yet been demonstrated. They are not presented as completed capabilities.
+**Verified milestone:** An actual `qwen2.5-coder:3b` Ollama run generated a test and fix for [seeded GitHub issue #1](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/issues/1). [Docker CI](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/runs/44482479486) showed baseline pass → reproduction fail → patched tests pass. A [real draft PR #2](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/pull/2) is open with passing CI, unmerged. **No SWE-bench resolution rate or production success claims.**
 
 ---
 
