@@ -1,47 +1,18 @@
-<div align="center">
+# Neeli Yaswanth Kumar
 
-<a href="https://kyaswanthneeli-stack.github.io/">
-  <img src="./assets/floating-hero-v2.gif" width="100%" alt="Midnight-navy animated AI engineering hero with Neeli Yaswanth Kumar, rotating mint/ice/lavender AI network, gently floating CodeAtlas/AgentGate/RouteWise themed panels and measured project scope">
-</a>
+Python and applied AI engineer in Hyderabad, India. Open to international remote roles in AI tooling and backend engineering.
 
-### Engineering the bridge between AI models and real applications.
+## RepoPilot
 
-**Generative AI Engineering** · **Python APIs** · **Agent Workflows**
+I built RepoPilot to answer a practical question: **does an AI-generated patch actually fix the reported bug?** Give it a public GitHub issue and a source revision. It proposes a Python patch and regression test, checks them in restricted Docker, and saves the results for a developer to review.
 
-<p>
-  <a href="https://kyaswanthneeli-stack.github.io/">
-    <img src="https://img.shields.io/badge/EXPLORE-PORTFOLIO-2A9D87?style=for-the-badge&labelColor=0C1B2C&logo=githubpages&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/">
-    <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-416DBA?style=for-the-badge&labelColor=0C1B2C&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/kyaswanthneeli-stack?tab=repositories">
-    <img src="https://img.shields.io/badge/VIEW-PROJECTS-7968B6?style=for-the-badge&labelColor=0C1B2C&logo=github&logoColor=white" alt="GitHub projects">
-  </a>
-  <a href="mailto:kyaswanthneeli@gmail.com">
-    <img src="https://img.shields.io/badge/LET'S_TALK-EMAIL-298977?style=for-the-badge&labelColor=0C1B2C&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+[**Explore the demo**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/recruiter-demo.html) · [Source and quickstart](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [Official benchmark](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/blob/main/repopilot/benchmarks/README.md)
 
-</div>
+On 12 selected SWE-bench Lite issues, RepoPilot submitted four patches. The official evaluator confirmed one fix. The quickstart includes a tested source revision and a reproducible verification workflow.
 
-### <code>01 //</code> The engineer behind the systems
+[Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Email](mailto:kyaswanthneeli@gmail.com)
 
-I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieval systems and agentic workflows**. My public portfolio focuses on understandable architecture, tested code, and practical backend demonstrations.
-
-**What you'll find here:** carefully scoped MCP developer tooling, tool policy prototypes, model routing infrastructure and evaluation workbenches—each linked to source code, tests and documented limitations.
-
-🌏 **India** · Open to international remote **GenAI / Agentic AI / Python Backend** opportunities.
-
-<div align="center">
-
-<img src="./assets/system-strip-v2.png" width="100%" alt="Engineering systems overview: CodeAtlas local MCP service; AgentGate and RouteWise deployed demo APIs, each with clearly labeled scope">
-
-</div>
-
----
-
-### <code>02 //</code> Featured engineering systems
+## Featured engineering systems
 
 <table>
 <tr>
@@ -86,7 +57,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 <div align="center">
 
-### <code>03 //</code> Engineering evidence, not vanity metrics
+## Engineering evidence
 
 <img src="./assets/verified-metrics-v2.png" width="100%" alt="Dark glass-style AI engineering dashboard with 3 featured projects, 2 hosted FastAPI services, 53 automated Python tests and 5 CodeAtlas MCP tools">
 
@@ -94,7 +65,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 </div>
 
-### <code>04 //</code> The stack behind the systems
+## The stack behind the systems
 
 <div align="center">
 
@@ -119,19 +90,7 @@ I’m **Neeli Yaswanth Kumar**. I work on **Generative AI, Python APIs, retrieva
 
 ---
 
-### <code>05 //</code> Flagship in progress: RepoPilot
-
-**[RepoPilot — issue-to-patch engineering harness](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/)**
-
-An inspectable Python workflow for GitHub issue retrieval, AST code context, LLM patch proposals, Docker verification, offline execution evidence, and approval-gated draft PR publishing.
-
-[**Real AI-generated run dashboard**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/model-run.html) · [**Draft PR #2**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/pull/2) · [**Explore recruiter walkthrough**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/) · [**Read source**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [**View tested Docker fail-before/pass-after proof**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml)
-
-**Verified milestone:** An actual `qwen2.5-coder:3b` Ollama run generated a test and fix for [seeded GitHub issue #1](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/issues/1). [Docker CI](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/runs/44482479486) showed baseline pass → reproduction fail → patched tests pass. A [real draft PR #2](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/pull/2) is open with passing CI, unmerged. **No SWE-bench resolution rate or production success claims.**
-
----
-
-### <code>06 //</code> The experimentation lab
+## The experimentation lab
 
 | Experience | What it shows | Try it |
 |:--|:--|:--|
@@ -154,12 +113,12 @@ An inspectable Python workflow for GitHub issue retrieval, AST code context, LLM
 
 <div align="center">
 
-### Let's build something worth shipping.
+### Contact
 
 Interested in **Generative AI Engineer**, **Agentic AI Engineer**, and **Python Backend Engineer** opportunities.
 
 [**Portfolio**](https://kyaswanthneeli-stack.github.io/) &nbsp; · &nbsp; [**LinkedIn**](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) &nbsp; · &nbsp; [**Email**](mailto:kyaswanthneeli@gmail.com)
 
-<sub>Floating graphics are real looping GIF animations, built with [the open-source graphics script](scripts/build_floating_v2.py) and [GitHub Actions](https://github.com/kyaswanthneeli-stack/kyaswanthneeli-stack/actions/workflows/floating-v2.yml). GitHub controls the avatar and surrounding sidebar.</sub>
+
 
 </div>
