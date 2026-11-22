@@ -1,124 +1,90 @@
 # Neeli Yaswanth Kumar
 
-Python and applied AI engineer in Hyderabad, India. Open to international remote roles in AI tooling and backend engineering.
+### Generative AI · Agentic Systems · Python Backend Engineering
 
-## RepoPilot
+I build AI-powered developer tools and backend systems with a focus on **grounded retrieval, safe tool execution, reliable APIs, and measurable behavior**. My public projects are independent engineering work, with source code, reproducible tests, architecture notes and clearly stated limits.
 
-I built RepoPilot to answer a practical question: **does an AI-generated patch actually fix the reported bug?** Give it a public GitHub issue and a source revision. It proposes a Python patch and regression test, checks them in restricted Docker, and saves the results for a developer to review.
+[**Explore my portfolio**](https://kyaswanthneeli-stack.github.io/) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) &nbsp; / &nbsp; [Email](mailto:kyaswanthneeli@gmail.com)
 
-[**Explore the demo**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/recruiter-demo.html) · [Source and quickstart](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [Official benchmark](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/blob/main/repopilot/benchmarks/README.md)
-
-On 12 selected SWE-bench Lite issues, RepoPilot submitted four patches. The official evaluator confirmed one fix. The quickstart includes a tested source revision and a reproducible verification workflow.
-
-[Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Email](mailto:kyaswanthneeli@gmail.com)
-
-## Featured engineering systems
-
-<table>
-<tr>
-<td width="33%" valign="top">
-<a href="https://github.com/kyaswanthneeli-stack/codeatlas-mcp">
-<img src="./assets/codeatlas-v2.gif" width="100%" alt="Animated CodeAtlas MCP mini-pipeline: Python source to SQLite graph to MCP tools"></a>
-
-**[CodeAtlas MCP](https://github.com/kyaswanthneeli-stack/codeatlas-mcp)**
-
-**Index code once, retrieve targeted structural context.** Reads Python files to build an AST/SQLite snapshot, then serves bounded symbol, call-graph and test-impact candidates through five local MCP tools.
-
-[**Explore visual demo**](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html) · [**Architecture**](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md)
-
-[![CodeAtlas CI](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml)
-</td>
-<td width="33%" valign="top">
-<a href="https://github.com/kyaswanthneeli-stack/agentgate">
-<img src="./assets/agentgate-v2.gif" width="100%" alt="Animated AgentGate mini-pipeline: tool requests, policy checks, and one-use approval"></a>
-
-**[AgentGate](https://github.com/kyaswanthneeli-stack/agentgate)**
-
-**Policy checks for agent tool requests.** The hosted FastAPI prototype validates allowlisted tools, redacts selected sensitive patterns and enforces one-use approvals; its two adapters use simulated data.
-
-[**Try live policy inspection**](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) · [**Live Python API**](https://agentgate-production-00036f18.up.railway.app/docs)
-
-[![AgentGate deployment check](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml/badge.svg)](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
-</td>
-<td width="33%" valign="top">
-<a href="https://github.com/kyaswanthneeli-stack/routewise">
-<img src="./assets/routewise-v2.gif" width="100%" alt="Animated RouteWise mini-pipeline: prompt selection, fast and reasoning routes, provider fallback"></a>
-
-**[RouteWise](https://github.com/kyaswanthneeli-stack/routewise)**
-
-**Explainable request routing, with conditional fallback.** The hosted FastAPI service uses heuristics to select fast/reasoning routes and can retry configured providers on eligible failures. Its public route-inspection endpoint performs real server-side classification; model responses remain labeled demos until provider credentials are configured.
-
-[**Try live routing**](https://kyaswanthneeli-stack.github.io/projects/routewise.html) · [**Live Python API**](https://routewise-production-c8aefb65.up.railway.app/docs)
-
-[![RouteWise deployment check](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml/badge.svg)](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-## Engineering evidence
-
-<img src="./assets/verified-metrics-v2.png" width="100%" alt="Dark glass-style AI engineering dashboard with 3 featured projects, 2 hosted FastAPI services, 53 automated Python tests and 5 CodeAtlas MCP tools">
-
-<sub>Documented implementation scope and CI checks—not GitHub popularity, real LLM savings or paid-provider activity.</sub>
-
-</div>
-
-## The stack behind the systems
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-10263A?style=for-the-badge&logo=python&logoColor=69E6CA)
-![FastAPI](https://img.shields.io/badge/FastAPI-10263A?style=for-the-badge&logo=fastapi&logoColor=69E6CA)
-![RAG](https://img.shields.io/badge/RAG-10263A?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/LangGraph-10263A?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/LangChain-10263A?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-10263A?style=for-the-badge)
-![Azure](https://img.shields.io/badge/Azure-10263A?style=for-the-badge)
-![BigQuery](https://img.shields.io/badge/BigQuery-10263A?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-10263A?style=for-the-badge&logo=docker&logoColor=84BFFF)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-10263A?style=for-the-badge&logo=githubactions&logoColor=84BFFF)
-
-</div>
-
-**Backend engineering:** Python, FastAPI, Flask, REST APIs, SQL
-
-**LLMs and retrieval:** RAG, LangGraph, LangChain, MCP, ChromaDB, Milvus
-
-**Delivery and verification:** Docker, Azure, GitHub Actions, Railway
+**Open to remote AI engineering and Python backend opportunities from India.**
 
 ---
 
-## The experimentation lab
+## Flagship project · RepoPilot
 
-| Experience | What it shows | Try it |
-|:--|:--|:--|
-| **[SourceDesk](https://github.com/kyaswanthneeli-stack/sourcedesk)** | BM25 retrieval, document source inspection and evaluation | [Open workbench](https://kyaswanthneeli-stack.github.io/sourcedesk/) |
-| **[EvalBench](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)** | Lexical saved-answer regression testing | [Open demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) |
-| **[TraceFlow](https://github.com/kyaswanthneeli-stack/ai-engineering-lab)** | Simulated retries, budgets and cancellation | [Open demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html) |
+**A human-supervised coding agent that turns GitHub issues into verified Python patches.**
+
+[![Stable release](https://img.shields.io/badge/Stable_release-v2.2.0-25a89b?style=flat-square)](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/releases/tag/v2.2.0)
+[![Main CI](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml/badge.svg?branch=main)](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml)
+[![Evidence](https://img.shields.io/badge/Engineering_evidence-available-5064b3?style=flat-square)](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/blob/main/repopilot/docs/FINAL_PORTFOLIO_AUDIT.md)
+
+| **351** | **2 files** | **v2.2.0** |
+| :---: | :---: | :---: |
+| Unit tests passed on the final maintenance branch | Real model-generated coordinated repair on a controlled issue | Published wheel, source archive and documented CLI image |
+
+**The problem:** LLM-generated patches can look convincing without fixing the issue. RepoPilot makes verification and developer review part of the workflow.
+
+```mermaid
+flowchart LR
+    A[GitHub issue / pinned revision] --> B[Bounded source inspection]
+    B --> C[Real LLM patch proposal]
+    C --> D[Patch validation]
+    D --> E[Restricted Docker regression]
+    E --> F[Evidence + human review]
+```
+
+**Engineering decisions:** inspect bounded source windows; constrain edits to inspected files; verify candidates without host shell access; reject new Python compilation errors; retain provenance and independent evaluator evidence. A developer reviews the candidate before publication and merge.
+
+**Verified case:** Qwen generated a two-module invoice repair; curated regression tests failed before the patch and passed afterward in restricted Docker. The candidate was published and merged after human review and corrections. The independent SWE-bench Lite baseline is **1/12 selected issues resolved (8.3%), 1/4 submitted patches resolved**. Further autonomy research is separate from the completed supervised portfolio release.
+
+[**Interactive case study**](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/recruiter-demo.html) · [**Source and setup**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot) · [**Release**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/releases/tag/v2.2.0) · [**Actual model run**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/runs/44540507015) · [**Final audit**](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/blob/main/repopilot/docs/FINAL_PORTFOLIO_AUDIT.md)
+
+---
+
+## Selected AI engineering projects
+
+| System | Problem solved / implementation | Explore |
+| :--- | :--- | :--- |
+| **CodeAtlas MCP** | Python AST and SQLite snapshot; five local MCP tools for symbols, candidate call graphs and test impact. | [Code](https://github.com/kyaswanthneeli-stack/codeatlas-mcp) · [Architecture](https://kyaswanthneeli-stack.github.io/projects/codeatlas-guide.html) · [Demo](https://kyaswanthneeli-stack.github.io/projects/codeatlas-mcp.html) |
+| **AgentGate** | FastAPI tool-policy gateway with allowlists, argument validation, redaction, atomic call limits and request-bound one-use approvals. | [Code](https://github.com/kyaswanthneeli-stack/agentgate) · [Demo](https://kyaswanthneeli-stack.github.io/projects/agentgate.html) · [API docs](https://agentgate-production-00036f18.up.railway.app/docs) |
+| **RouteWise** | FastAPI LLM gateway with deterministic routing, authenticated requests, bounded retry and provider fallback. Public route inspection is separate from private inference. | [Code](https://github.com/kyaswanthneeli-stack/routewise) · [Demo](https://kyaswanthneeli-stack.github.io/projects/routewise.html) · [API docs](https://routewise-production-c8aefb65.up.railway.app/docs) |
 
 <details>
-<summary><strong>Engineering verification, deployment scope and video walkthroughs</strong></summary>
+<summary><strong>Architecture walkthroughs and verification</strong></summary>
 
-- **CodeAtlas MCP:** [16 documented tests and tokenizer benchmark](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) · [architecture walkthrough](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/walkthrough.yml)
-- **AgentGate:** [19 automated tests and Docker CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml)
-- **RouteWise:** [18 automated tests and Docker CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [public health/authentication smoke checks](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml)
+| Project | Evidence |
+| :--- | :--- |
+| CodeAtlas | [16 documented tests and CI](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) · [Architecture and benchmark methodology](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md) |
+| AgentGate | [19 documented tests and CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [Deployment smoke workflow](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml) |
+| RouteWise | [18 documented tests and CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [Deployment smoke workflow](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml) |
 
-**Implementation boundaries:** CodeAtlas uses a fixed browser graph fixture; AgentGate and RouteWise browser explorers use live Python FastAPI endpoints. AgentGate uses fixed demo adapters and sends no real notifications. RouteWise has a publicly deployed authenticated API, but no upstream model provider is configured. CodeAtlas's static call graph cannot resolve every dynamic call, and its tokenizer payload measurements do not prove coding-agent cost savings. Walkthrough videos explain architecture rather than capture live model use.
+CodeAtlas is a local Python MCP service with a sample browser graph. AgentGate uses simulated tool adapters, not real notifications. RouteWise's routing preview does not call a model; authenticated inference depends on the server's provider configuration. Hosted endpoints are linked, not a guarantee of uptime. RepoPilot is a supervised prototype, not a multi-tenant autonomous service. Each repository explains its test and measurement boundaries.
 
 </details>
 
----
+## Retrieval, evaluation and orchestration lab
 
-<div align="center">
+| Project | Focus | Try |
+| :--- | :--- | :--- |
+| **SourceDesk** | BM25 versus keyword overlap, document evidence, retrieval evaluation | [Workbench](https://kyaswanthneeli-stack.github.io/sourcedesk/) · [Source](https://github.com/kyaswanthneeli-stack/sourcedesk) |
+| **EvalBench** | Saved-answer regression detection, lexical metrics and required-phrase checks | [Demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/evalbench.html) · [Source](https://github.com/kyaswanthneeli-stack/ai-engineering-lab) |
+| **TraceFlow** | Async workflow simulation, retries, cancellation, budgets and evidence traces | [Demo](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/traceflow.html) · [Source](https://github.com/kyaswanthneeli-stack/ai-engineering-lab) |
 
-### Contact
+These browser labs use deterministic examples and synthetic data, not live model responses.
 
-Interested in **Generative AI Engineer**, **Agentic AI Engineer**, and **Python Backend Engineer** opportunities.
+## Technical focus
 
-[**Portfolio**](https://kyaswanthneeli-stack.github.io/) &nbsp; · &nbsp; [**LinkedIn**](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) &nbsp; · &nbsp; [**Email**](mailto:kyaswanthneeli@gmail.com)
+| Area | Technologies and design practices |
+| :--- | :--- |
+| AI engineering | LLM integration, RAG, tool calling, agent orchestration, MCP, retrieval evaluation |
+| Python backend | Python, FastAPI, Flask, REST APIs, SQL, SQLite, asynchronous processing |
+| Reliability | Validation, bounded retries, provider fallback, human approval, regression tests |
+| Delivery | Docker, GitHub Actions, Railway, Azure |
 
+The portfolio also includes architecture-level case studies of knowledge retrieval, product/order search and voice workflows. Private client code and data are not published.
 
+## Start here
 
-</div>
+For a technical interview, start with the [RepoPilot case study](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/recruiter-demo.html), then inspect the [code and release](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot). For API design, explore [AgentGate](https://kyaswanthneeli-stack.github.io/projects/agentgate-guide.html) or [RouteWise](https://kyaswanthneeli-stack.github.io/projects/routewise-guide.html). For retrieval and MCP, see [CodeAtlas](https://kyaswanthneeli-stack.github.io/projects/codeatlas-guide.html).
+
+[Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Contact](mailto:kyaswanthneeli@gmail.com)
