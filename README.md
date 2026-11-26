@@ -2,17 +2,17 @@
 
 ### Generative AI · Agentic Systems · Python Backend Engineering
 
-I build AI-powered developer tools and backend systems with a focus on **grounded retrieval, safe tool execution, reliable APIs, and measurable behavior**. My public projects are independent engineering work, with source code, reproducible tests, architecture notes and clearly stated limits.
+I build **Python APIs and tools for evaluating and operating LLM workflows**. My public projects cover patch verification, tool-call approval, model routing, and source-code indexing.
 
-[**Explore my portfolio**](https://kyaswanthneeli-stack.github.io/) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) &nbsp; / &nbsp; [Email](mailto:kyaswanthneeli@gmail.com)
+[**Explore my portfolio**](https://kyaswanthneeli-stack.github.io/) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar/) &nbsp; / &nbsp; [Email](mailto:kyaswanthneeli@gmail.com)
 
-**Open to remote AI engineering and Python backend opportunities from India.**
+**Available from India for international remote AI engineering and Python backend roles and paid contracts.**
 
 ---
 
 ## Flagship project · RepoPilot
 
-**A human-supervised coding agent that turns GitHub issues into verified Python patches.**
+**A human-supervised coding agent that proposes Python patches for GitHub issues and records how they were verified.**
 
 [![Stable release](https://img.shields.io/badge/Stable_release-v2.2.0-25a89b?style=flat-square)](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/releases/tag/v2.2.0)
 [![Main CI](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml/badge.svg?branch=main)](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/actions/workflows/repopilot.yml)
@@ -55,8 +55,8 @@ flowchart LR
 | Project | Evidence |
 | :--- | :--- |
 | CodeAtlas | [16 documented tests and CI](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/actions/workflows/ci.yml) · [Architecture and benchmark methodology](https://github.com/kyaswanthneeli-stack/codeatlas-mcp/blob/main/docs/ARCHITECTURE_AND_BENCHMARK.md) |
-| AgentGate | [19 documented tests and CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [Deployment smoke workflow](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml) |
-| RouteWise | [18 documented tests and CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [Deployment smoke workflow](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml) |
+| AgentGate | [AgentGate CI](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/ci.yml) · [Deployment smoke workflow](https://github.com/kyaswanthneeli-stack/agentgate/actions/workflows/deployment-smoke.yml) |
+| RouteWise | [RouteWise CI](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/ci.yml) · [Deployment smoke workflow](https://github.com/kyaswanthneeli-stack/routewise/actions/workflows/deployment-smoke.yml) |
 
 CodeAtlas is a local Python MCP service with a sample browser graph. AgentGate uses simulated tool adapters, not real notifications. RouteWise's routing preview does not call a model; authenticated inference depends on the server's provider configuration. Hosted endpoints are linked, not a guarantee of uptime. RepoPilot is a supervised prototype, not a multi-tenant autonomous service. Each repository explains its test and measurement boundaries.
 
@@ -87,4 +87,4 @@ The portfolio also includes architecture-level case studies of knowledge retriev
 
 For a technical interview, start with the [RepoPilot case study](https://kyaswanthneeli-stack.github.io/ai-engineering-lab/repopilot/recruiter-demo.html), then inspect the [code and release](https://github.com/kyaswanthneeli-stack/ai-engineering-lab/tree/main/repopilot). For API design, explore [AgentGate](https://kyaswanthneeli-stack.github.io/projects/agentgate-guide.html) or [RouteWise](https://kyaswanthneeli-stack.github.io/projects/routewise-guide.html). For retrieval and MCP, see [CodeAtlas](https://kyaswanthneeli-stack.github.io/projects/codeatlas-guide.html).
 
-[Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar-134a74414/) · [Contact](mailto:kyaswanthneeli@gmail.com)
+[Portfolio](https://kyaswanthneeli-stack.github.io/) · [LinkedIn](https://www.linkedin.com/in/yaswanthneeli-kumar/) · [Contact](mailto:kyaswanthneeli@gmail.com)
